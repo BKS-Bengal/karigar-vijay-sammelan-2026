@@ -235,6 +235,16 @@ The story page now has a beginning, the clearing, the bamboo frame, paths and de
 
 Live Gemini audio, a real registration insert, the migration, the camera and a hosted deploy were not confirmed. `GEMINI_API_KEY`, `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are empty. The parent repository was not committed.
 
+## 18. Preview and separate repository
+
+Local preview only. `vercel whoami` was not authorized, so no hosted preview was created.
+
+`vercel dev --local --listen 127.0.0.1:3000` served the public routes with HTTP 200. Speech status was unconfigured. A valid registration body returned 503 `configuration_missing` and no reference number. The process was stopped.
+
+Screenshots: `preview/2026-10-14/`. Widths 320, 360, 390, 430, 768 and 1440. Overflow 0. English, Hindi and Bengali intro text switched on the registration page.
+
+Private repository, confirmed: https://github.com/BKS-Bengal/karigar-vijay-sammelan-2026. Organisation slug `BKS-Bengal`. No GKS organisation was on this account. The original folder was left in the parent workspace.
+
 Status at the start of this pass, and unchanged for every site except the untracked Karigar folder:
 
 - Branch `main...origin/main`

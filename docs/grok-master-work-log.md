@@ -17,7 +17,13 @@ The earlier registration fixes stay. This pass did not rebuild the wizard.
 - YouTube page title was fetched. The video was not played. The two local MP4 files were not opened again.
 - Parent repository was not committed. Other specialist sites were not edited.
 
-Still blocked: Supabase URL and service-role key are empty, so no registration row exists. Gemini and Azure speech keys are empty. Camera, live microphone, organiser sign-in and hosted deploy were not confirmed in this pass. Preview and the separate repository are recorded after they are actually checked.
+Still blocked: Supabase URL and service-role key are empty, so no registration row exists. Gemini and Azure speech keys are empty. Camera, live microphone, organiser sign-in and a hosted Vercel deploy were not confirmed. `vercel whoami` returned not authorized.
+
+Checked after the code was in place:
+
+- Local `vercel dev --local --listen 127.0.0.1:3000` answered the five public routes with HTTP 200. `GET /api/karigar-registrations/speech-token/` returned `provider: none`, `live: false`. A valid test registration returned HTTP 503 `configuration_missing` and no reference number. The server was then stopped. Port 3000 was free afterwards.
+- Headless Edge screenshots at 320, 360, 390, 430, 768 and 1440 are in `preview/2026-10-14/`. Overflow was 0 and no image was broken on those shots. Reduced motion on the landing avatar computed as `none`. Registration language buttons switched the intro among English, Hindi and Bengali. Voice mode showed “কথা বলুন” selected.
+- Separate private repository, confirmed by `gh repo view`: https://github.com/BKS-Bengal/karigar-vijay-sammelan-2026. The account’s organisations include `BKS-Bengal` (display name BKS Bengal). No organisation named GKS was found, so the repository was not created under a personal account. The parent repository was not committed. Its origin is still `https://github.com/BKS-Bengal/bks-durga-puja-2026.git`.
 
 ## Previous checkpoint — 14 October 2026, continuation
 
