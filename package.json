@@ -1,0 +1,8 @@
+{
+  "name": "bks-karigar-vijay-sammelan-2026",
+  "private": true,
+  "description": "Karigar Vijay Sammelan 2026 — Bengali voice and chat registration",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 scripts/test-karigar.mjs"
+  }
+}

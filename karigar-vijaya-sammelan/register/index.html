@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>রেজিস্ট্রেশন — কারিগর বিজয়া সম্মিলনী ২০২৬</title>
+  <meta name="description" content="কারিগর বিজয়া সম্মিলনীতে নাম লিখুন। কথা বলে বা লিখে। ছবি প্রকাশ আলাদা সম্মতি।">
+  <link rel="stylesheet" href="/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">মূল বিষয়ে যান</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/karigar-vijaya-sammelan/">
+        <img src="/assets/hosts-karmyog-bks-lockup.jpg" alt="KarmYog for the 21st Century and Bharatiya Krishak Samaj">
+        <strong data-i18n="brand.event">কারিগর বিজয়া সম্মিলনী ২০২৬</strong>
+      </a>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-lang="bn-IN">বাংলা</button>
+        <button type="button" data-lang="en-IN">English</button>
+        <button type="button" data-lang="hi-IN">हिन्दी</button>
+      </div>
+    </div>
+    <nav class="site-nav" data-i18n-aria="nav.label" aria-label="বিষয়">
+      <a href="/karigar-vijaya-sammelan/story/" data-i18n="nav.story">গড়ে ওঠার গল্প</a>
+      <a href="/karigar-vijaya-sammelan/karigar/" data-i18n="nav.people">কারিগরদের গল্প</a>
+      <a href="/karigar-vijaya-sammelan/#tathya" data-i18n="nav.facts">অনুষ্ঠানের তথ্য</a>
+      <a href="/karigar-vijaya-sammelan/register/?mode=chat" data-i18n="nav.register">রেজিস্ট্রেশন</a>
+    </nav>
+  </header>
+  <main id="main" class="flow wrap">
+    <div class="saathi saathi-row" data-saathi data-state="idle">
+      <div>
+        <strong data-i18n="saathi.name">কারিগর সাথী</strong>
+        <p class="saathi-note" data-i18n="saathi.role">আপনার পাশে থাকা বাংলাভাষী রেজিস্ট্রেশন সহকারী</p>
+      </div>
+    </div>
+    <div class="flow-top">
+      <p class="progress" id="progress">ধাপ ১ / ৭</p>
+      <div class="mode-switch" role="group" aria-label="Input mode">
+        <button type="button" id="mode-voice" class="ghost">কথা বলুন</button>
+        <button type="button" id="mode-chat" class="ghost">লিখে বলুন</button>
+      </div>
+    </div>
+    <div class="meter" aria-hidden="true"><span id="meter"></span></div>
+    <p class="prompt" id="prompt"></p>
+    <div id="live" class="status" role="status" aria-live="polite"></div>
+    <div id="step"></div>
+    <div id="help" class="help-box panel" hidden>
+      <h2 data-i18n="help.title">আয়োজকের সাহায্য</h2>
+      <p data-i18n="help.body"></p>
+      <p id="help-links"></p>
+    </div>
+  </main>
+  <script src="/js/schema.js"></script>
+  <script src="/js/machine.js"></script>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/public-config.js"></script>
+  <script src="/js/speech.js"></script>
+  <script src="/js/karigar-avatar.js"></script>
+  <script src="/js/photo.js"></script>
+  <script src="/js/register-app.js"></script>
+</body>
+</html>

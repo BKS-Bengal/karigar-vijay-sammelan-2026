@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>রেজিস্ট্রেশন জমা — কারিগর বিজয়া সম্মিলনী ২০২৬</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <main class="wrap flow">
+    <h1 data-i18n="prompt.success"></h1>
+    <p data-i18n="success.keep"></p>
+    <p class="ref" id="ref"></p>
+    <p data-i18n="success.note"></p>
+    <p><a href="/karigar-vijaya-sammelan/" data-i18n="privacy.home"></a></p>
+  </main>
+  <script src="/js/i18n.js"></script>
+  <script>
+    KVSI18n.set(KVSI18n.get());
+    KVSI18n.apply(document);
+    var ref = "";
+    try { ref = sessionStorage.getItem("kvs-registration-no") || ""; } catch (err) {}
+    document.getElementById("ref").textContent = ref || KVSI18n.t("complete.missing");
+  </script>
+</body>
+</html>

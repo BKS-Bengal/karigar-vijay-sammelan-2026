@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>কারিগর রেজিস্ট্রেশন</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/admin/karigar-registrations/">
+        <strong data-i18n="admin.title">কারিগর রেজিস্ট্রেশন</strong>
+      </a>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-lang="bn-IN">বাংলা</button>
+        <button type="button" data-lang="en-IN">English</button>
+        <button type="button" data-lang="hi-IN">हिन्दी</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="wrap flow">
+    <h1 data-i18n="admin.title">কারিগর রেজিস্ট্রেশন</h1>
+    <form id="login" class="panel">
+      <h2 data-i18n="admin.login"></h2>
+      <p data-i18n="admin.unauth"></p>
+      <label for="token" data-i18n="admin.token"></label>
+      <input id="token" type="password" autocomplete="current-password">
+      <p><button class="btn btn-primary" type="submit" data-i18n="admin.enter"></button></p>
+      <p id="login-error" class="status" data-kind="error"></p>
+    </form>
+    <section id="desk" hidden>
+      <p><button type="button" id="logout" class="ghost" data-i18n="admin.logout"></button></p>
+      <form id="filters" class="filters">
+        <input id="q" type="search" data-i18n-placeholder="admin.search">
+        <select id="status" data-i18n-aria="admin.status" aria-label="যাচাইয়ের অবস্থা"></select>
+        <select id="attendance" data-i18n-aria="field.attendance" aria-label="উপস্থিতি"></select>
+        <select id="category" data-i18n-aria="field.work" aria-label="কাজের ধরন"></select>
+        <button class="btn btn-primary" type="submit" data-i18n="admin.find">খুঁজুন</button>
+      </form>
+      <p id="list-status" class="status" role="status"></p>
+      <div id="exports" class="stack-actions"></div>
+      <div id="list"></div>
+      <p>
+        <button type="button" id="prev" class="ghost" data-i18n="admin.prev"></button>
+        <button type="button" id="next" class="ghost" data-i18n="admin.next"></button>
+      </p>
+    </section>
+  </main>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/schema.js"></script>
+  <script src="/js/admin-list.js"></script>
+</body>
+</html>
