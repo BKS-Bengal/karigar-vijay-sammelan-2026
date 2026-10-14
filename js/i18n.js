@@ -11,7 +11,7 @@
     "skip": { "bn-IN": "মূল বিষয়ে যান", "en-IN": "Skip to content", "hi-IN": "मुख्य विषय पर जाएँ" },
     "brand.event": { "bn-IN": "কারিগর বিজয়া সম্মিলনী ২০২৬", "en-IN": "Karigar Vijay Sammelan 2026", "hi-IN": "कारीगर विजया सम्मेलन २०२६" },
     "hero.kicker": { "bn-IN": "প্রত্যাবর্তন", "en-IN": "Protyabortan", "hi-IN": "प्रत्यावर्तन" },
-    "hero.line1": { "bn-IN": "আপনার হাতে গড়ে উঠেছে প্রত্যাবর্তন।", "en-IN": "Protyabortan was built by your hands.", "hi-IN": "प्रत्यावर्तन आपके हाथों से बना है।" },
+    "hero.line1": { "bn-IN": "আপনাদের হাতে গড়ে উঠেছে প্রত্যাবর্তন।", "en-IN": "Protyabortan was built by your hands.", "hi-IN": "प्रत्यावर्तन आपके हाथों से बना है।" },
     "hero.line2": { "bn-IN": "এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী।", "en-IN": "This Vijay Sammelan is in your honour.", "hi-IN": "यह विजया सम्मेलन आपके सम्मान में है।" },
     "hero.support": {
       "bn-IN": "প্রত্যাবর্তন দুর্গাপুজোর মণ্ডপ নির্মাণ, সাজসজ্জা, কাঠামো, ফ্যাব্রিকেশন, ফিনিশিং ও আলোকসজ্জার কাজে যুক্ত কারিগরদের জন্য এই বিশেষ আয়োজন। আপনার নাম ও ছবি দিয়ে সহজে রেজিস্ট্রেশন করুন—কথা বলে অথবা লিখে।",
@@ -19,22 +19,128 @@
       "hi-IN": "यह आयोजन उन कारीगरों के लिए है जिन्होंने प्रत्यावर्तन का मंडप बनाया, सजाया, पूरा किया और रोशन किया। नाम और फोटो के साथ बोलकर या लिखकर पंजीकरण करें।"
     },
     "hero.photoAlt": {
-      "bn-IN": "মুনশিভেরিতে বাঁশের কাঠামো বাঁধছেন একজন কারিগর। প্রত্যাবর্তন দুর্গাপুজো ২০২৬।",
-      "en-IN": "A worker tying the bamboo frame at Munshi Bheri, Protyabortan Durga Puja 2026.",
-      "hi-IN": "मुंशी भेरी में बाँस का ढाँचा बाँधते एक कारीगर। प्रत्यावर्तन दुर्गा पूजा २०२६।"
+      "bn-IN": "২১ সেপ্টেম্বর ২০২৬: একজন কারিগর বাঁশের কাঠামো বাঁধছেন।",
+      "en-IN": "21 September 2026: a worker tying a bamboo frame.",
+      "hi-IN": "२१ सितम्बर २०२६: एक कारीगर बाँस का ढाँचा बाँध रहे हैं।"
     },
     "hero.photoCaption": {
-      "bn-IN": "মুনশিভেরিতে বাঁশের কাঠামোর কাজ।",
-      "en-IN": "Bamboo frame work at Munshi Bheri.",
-      "hi-IN": "मुंशी भेरी में बाँस के ढाँचे का काम।"
+      "bn-IN": "অফিসিয়াল সাইটের ২১ সেপ্টেম্বর ২০২৬-এর ছবি: বাঁশের কাঠামো বাঁধা হচ্ছে।",
+      "en-IN": "Official-site photograph, 21 September 2026: the bamboo frame being tied.",
+      "hi-IN": "आधिकारिक साइट की २१ सितम्बर २०२६ की तस्वीर: बाँस का ढाँचा बाँधा जा रहा है।"
+    },
+    "hero.inviteAlt": {
+      "bn-IN": "প্রত্যাবর্তন দুর্গাপূজা ২০২৬-এর অফিসিয়াল আমন্ত্রণপত্রের প্রথম পাতা। শিল্পীর আঁকা মা দুর্গা, প্রত্যাবর্তন শব্দটি, এবং কারমযোগ ও ভারতীয় কৃষক সমাজের চিহ্ন।",
+      "en-IN": "Page 1 of the official Protyabortan Durga Puja 2026 invitation, with an illustrated Maa Durga, the Protyabortan lettering, and the marks of KarmYog and Bharatiya Krishak Samaj.",
+      "hi-IN": "प्रत्यावर्तन दुर्गा पूजा २०२६ के आधिकारिक निमंत्रण का पहला पन्ना। चित्रित माँ दुर्गा, प्रत्यावर्तन लिखावट, और कार्मयोग तथा भारतीय कृषक समाज के चिह्न।"
+    },
+    "hero.inviteCaption": {
+      "bn-IN": "আমন্ত্রণপত্রের প্রথম পাতা।",
+      "en-IN": "Invitation, page 1.",
+      "hi-IN": "निमंत्रण का पहला पन्ना।"
+    },
+    "hero.posterAlt": {
+      "bn-IN": "আঁকা দৃশ্য: দুই কারিগর বাঁশের খুঁটি ধরে দড়ি বাঁধছেন।",
+      "en-IN": "Illustrated scene: two karigars holding bamboo poles and tying a rope.",
+      "hi-IN": "बनाया हुआ दृश्य: दो कारीगर बाँस के खंभे पकड़कर रस्सी बाँध रहे हैं।"
+    },
+    "hero.pause": { "bn-IN": "অ্যানিমেশন থামান", "en-IN": "Pause animation", "hi-IN": "एनिमेशन रोकें" },
+    "hero.play": { "bn-IN": "অ্যানিমেশন চালান", "en-IN": "Play animation", "hi-IN": "एनिमेशन चलाएँ" },
+    "film.title": {
+      "bn-IN": "কারিগরদের কথা, তাঁদের মুখেই",
+      "en-IN": "The karigars, in their own words",
+      "hi-IN": "कारीगरों की बात, उन्हीं की ज़बानी"
+    },
+    "film.note": {
+      "bn-IN": "ধর্ম সংস্থাপনের পালা।",
+      "en-IN": "Dharma Sansthapaner Pala.",
+      "hi-IN": "धर्म संस्थापनेर पाला।"
+    },
+    "film.thumbAlt": {
+      "bn-IN": "ইউটিউব ভিডিওর থাম্বনেইল: বাঁশের কাঠামোর সামনে কয়েকজন মানুষ।",
+      "en-IN": "YouTube thumbnail: people in front of a bamboo frame.",
+      "hi-IN": "यूट्यूब थंबनेल: बाँस के ढाँचे के सामने कुछ लोग।"
+    },
+    "film.play": {
+      "bn-IN": "ইউটিউবে এই ভিডিও খুলুন",
+      "en-IN": "Open this video on YouTube",
+      "hi-IN": "यह वीडियो यूट्यूब पर खोलें"
+    },
+    "gallery.title": { "bn-IN": "প্রত্যাবর্তন ২০২৬-এর দৃশ্য", "en-IN": "Protyabortan 2026, in pictures", "hi-IN": "प्रत्यावर्तन २०२६ के दृश्य" },
+    "gallery.intro": {
+      "bn-IN": "নিচের ছবি প্রত্যাবর্তন দুর্গাপূজা ২০২৬-এর অফিসিয়াল সাইট থেকে। পুজো খোলার তারিখ সেই সাইটে ১৬ অক্টোবর ২০২৬। আমন্ত্রণের চিত্র, নকশার দৃশ্য, আর নির্মাণের আলোকচিত্র আলাদা।",
+      "en-IN": "These images are from the official Protyabortan Durga Puja 2026 website. That site lists the Puja opening as 16 October 2026. Invitation artwork, design views and construction photographs are labelled separately.",
+      "hi-IN": "ये तस्वीरें प्रत्यावर्तन दुर्गा पूजा २०२६ की आधिकारिक साइट से हैं। उस साइट पर पूजा खुलने की तारीख १६ अक्टूबर २०२६ है। निमंत्रण की कला, डिज़ाइन के दृश्य और निर्माण की तस्वीरें अलग हैं।"
+    },
+    "gallery.artTitle": { "bn-IN": "আমন্ত্রণের চিত্র", "en-IN": "Invitation artwork", "hi-IN": "निमंत्रण की कला" },
+    "gallery.invite2Alt": {
+      "bn-IN": "আমন্ত্রণপত্রের দ্বিতীয় পাতা। চিঠি ও নকশার দৃশ্য।",
+      "en-IN": "Invitation page 2, with the letter and design views.",
+      "hi-IN": "निमंत्रण का दूसरा पन्ना। पत्र और डिज़ाइन के दृश्य।"
+    },
+    "gallery.invite2Cap": {
+      "bn-IN": "আমন্ত্রণপত্রের দ্বিতীয় পাতা।",
+      "en-IN": "Invitation, page 2.",
+      "hi-IN": "निमंत्रण का दूसरा पन्ना।"
+    },
+    "gallery.invite3Alt": {
+      "bn-IN": "আমন্ত্রণপত্রের তৃতীয় পাতা। উৎসর্গের আঁকা ছবি।",
+      "en-IN": "Invitation page 3, the dedication artwork.",
+      "hi-IN": "निमंत्रण का तीसरा पन्ना। समर्पण की कला।"
+    },
+    "gallery.invite3Cap": {
+      "bn-IN": "আমন্ত্রণপত্রের তৃতীয় পাতা।",
+      "en-IN": "Invitation, page 3.",
+      "hi-IN": "निमंत्रण का तीसरा पन्ना।"
+    },
+    "gallery.designTitle": { "bn-IN": "নকশার দৃশ্য", "en-IN": "Design views", "hi-IN": "डिज़ाइन के दृश्य" },
+    "gallery.aerialAlt": { "bn-IN": "নকশার দৃশ্য: মণ্ডপ, উপর থেকে।", "en-IN": "Design view: the pandal, from above.", "hi-IN": "डिज़ाइन-दृश्य: मंडप, ऊपर से।" },
+    "gallery.aerialCap": { "bn-IN": "নকশার দৃশ্য: মণ্ডপ, উপর থেকে।", "en-IN": "Design view: the pandal, from above.", "hi-IN": "डिज़ाइन-दृश्य: मंडप, ऊपर से।" },
+    "gallery.insideAlt": { "bn-IN": "নকশার দৃশ্য: মণ্ডপের ভিতর।", "en-IN": "Design view: inside the pandal.", "hi-IN": "डिज़ाइन-दृश्य: मंडप के भीतर।" },
+    "gallery.insideCap": { "bn-IN": "নকশার দৃশ্য: মণ্ডপের ভিতর।", "en-IN": "Design view: inside the pandal.", "hi-IN": "डिज़ाइन-दृश्य: मंडप के भीतर।" },
+    "gallery.entranceAlt": { "bn-IN": "নকশার দৃশ্য: প্রবেশপথ।", "en-IN": "Design view: the entrance.", "hi-IN": "डिज़ाइन-दृश्य: प्रवेश।" },
+    "gallery.entranceCap": { "bn-IN": "নকশার দৃশ্য: প্রবেশপথ।", "en-IN": "Design view: the entrance.", "hi-IN": "डिज़ाइन-दृश्य: प्रवेश।" },
+    "gallery.lampAlt": { "bn-IN": "নকশার দৃশ্য: প্রদীপের পথ।", "en-IN": "Design view: the lamp-lit path.", "hi-IN": "डिज़ाइन-दृश्य: दीपों का रास्ता।" },
+    "gallery.lampCap": { "bn-IN": "নকশার দৃশ্য: প্রদীপের পথ।", "en-IN": "Design view: the lamp-lit path.", "hi-IN": "डिज़ाइन-दृश्य: दीपों का रास्ता।" },
+    "gallery.progressTitle": { "bn-IN": "নির্মাণের আলোকচিত্র", "en-IN": "Construction photographs", "hi-IN": "निर्माण की तस्वीरें" },
+    "gallery.progressNote": {
+      "bn-IN": "নির্মাণের ছবি।",
+      "en-IN": "Construction photographs.",
+      "hi-IN": "निर्माण की तस्वीरें।"
+    },
+    "gallery.sep24Alt": { "bn-IN": "২৪ সেপ্টেম্বর ২০২৬: জলের ধারে বাঁশের কাঠামো। নির্মাণের আলোকচিত্র।", "en-IN": "24 September 2026: a bamboo frame beside the water. A construction photograph.", "hi-IN": "२४ सितम्बर २०२६: पानी के किनारे बाँस का ढाँचा। निर्माण की तस्वीर।" },
+    "gallery.sep24Cap": { "bn-IN": "২৪ সেপ্টেম্বর ২০২৬: জলের ধারে বাঁশের কাঠামো। নির্মাণের আলোকচিত্র।", "en-IN": "24 September 2026: bamboo frame beside the water. Construction photograph.", "hi-IN": "२४ सितम्बर २०२६: पानी के किनारे बाँस का ढाँचा। निर्माण की तस्वीर।" },
+    "gallery.sep28Alt": { "bn-IN": "২৮ সেপ্টেম্বর ২০২৬: রাতে বাঁশের খুঁটি তোলার কাজ।", "en-IN": "28 September 2026: bamboo poles going up at night.", "hi-IN": "२८ सितम्बर २०२६: रात में बाँस के खंभे उठाने का काम।" },
+    "gallery.sep28Cap": { "bn-IN": "২৮ সেপ্টেম্বর ২০২৬: রাতে বাঁশের খুঁটি তোলার কাজ।", "en-IN": "28 September 2026: raising bamboo poles at night.", "hi-IN": "२८ सितम्बर २०२६: रात में बाँस के खंभे उठाने का काम।" },
+    "gallery.sep28bAlt": { "bn-IN": "২৮ সেপ্টেম্বর ২০২৬: রাতের আলোয় বাঁশের কাঠামো।", "en-IN": "28 September 2026: the bamboo frame under work lights.", "hi-IN": "२८ सितम्बर २०२६: काम की रोशनी में बाँस का ढाँचा।" },
+    "gallery.sep28bCap": { "bn-IN": "২৮ সেপ্টেম্বর ২০২৬: রাতের আলোয় বাঁশের কাঠামো।", "en-IN": "28 September 2026: the bamboo frame lit at night.", "hi-IN": "२८ सितम्बर ২০२६: रात की रोशनी में बाँस का ढाँचा।" },
+    "gallery.oct7Alt": { "bn-IN": "৭ অক্টোবর ২০২৬: জলের ওপর বাঁশের ছাউনি। নির্মাণের আলোকচিত্র।", "en-IN": "7 October 2026: a bamboo shelter over the water. A construction photograph.", "hi-IN": "७ अक्टूबर २०२६: पानी के ऊपर बाँस की छत। निर्माण की तस्वीर।" },
+    "gallery.oct7Cap": { "bn-IN": "৭ অক্টোবর ২০২৬: জলের ওপর বাঁশের ছাউনি। নির্মাণের আলোকচিত্র।", "en-IN": "7 October 2026: bamboo shelter over the water. Construction photograph.", "hi-IN": "७ अक्टूबर २०२६: पानी के ऊपर बाँस की छत। निर्माण की तस्वीर।" },
+    "gallery.railAlt": { "bn-IN": "৭ অক্টোবর ২০২৬: পথের ধারে বাঁশের রেলিং। নির্মাণের আলোকচিত্র।", "en-IN": "7 October 2026: a bamboo railing along the path. A construction photograph.", "hi-IN": "७ अक्टूबर २०२६: रास्ते के किनारे बाँस की रेलिंग। निर्माण की तस्वीर।" },
+    "gallery.railCap": { "bn-IN": "৭ অক্টোবর ২০২৬: পথের ধারে বাঁশের রেলিং।", "en-IN": "7 October 2026: bamboo railing along the path.", "hi-IN": "७ अक्टूबर २०२६: रास्ते के किनारे बाँस की रेलिंग।" },
+    "gallery.oct8Alt": { "bn-IN": "৮ অক্টোবর ২০২৬: বাঁকানো বাঁশের পথ ও গোল ঘরের কাজ। নির্মাণ চলছে।", "en-IN": "8 October 2026: a curved bamboo walkway and a round hut, still under construction.", "hi-IN": "८ अक्टूबर २०२६: मुड़ा हुआ बाँस का रास्ता और गोल कमरा। निर्माण चल रहा है।" },
+    "gallery.oct8Cap": { "bn-IN": "৮ অক্টোবর ২০২৬: বাঁকানো বাঁশের পথ ও গোল ঘর। নির্মাণ চলছে।", "en-IN": "8 October 2026: curved bamboo walkway and round hut. Construction still underway.", "hi-IN": "८ अक्टूबर २०२६: मुड़ा हुआ बाँस का रास्ता और गोल कमरा। निर्माण चल रहा है।" },
+    "gallery.source": {
+      "bn-IN": "প্রত্যাবর্তন দুর্গাপূজা ২০২৬-এর অফিসিয়াল সাইট",
+      "en-IN": "Official Protyabortan Durga Puja 2026 website",
+      "hi-IN": "प्रत्यावर्तन दुर्गा पूजा २०२६ की आधिकारिक साइट"
     },
     "cta.voice": { "bn-IN": "কারিগর সাথীর সঙ্গে কথা বলে রেজিস্ট্রেশন করুন", "en-IN": "Register by speaking with Karigar Saathi", "hi-IN": "कारीगर साथी के साथ बोलकर पंजीकरण करें" },
+    "cta.voiceShort": { "bn-IN": "কথা বলে রেজিস্ট্রেশন", "en-IN": "Register by speaking", "hi-IN": "बोलकर पंजीकरण" },
+    "cta.typeShort": { "bn-IN": "লিখে রেজিস্ট্রেশন", "en-IN": "Register by typing", "hi-IN": "लिखकर पंजीकरण" },
     "cta.type": { "bn-IN": "লিখে রেজিস্ট্রেশন করুন", "en-IN": "Register by typing", "hi-IN": "लिखकर पंजीकरण करें" },
     "cta.help": { "bn-IN": "রেজিস্ট্রেশন করতে সাহায্য চাই", "en-IN": "I need help to register", "hi-IN": "पंजीकरण में मदद चाहिए" },
     "saathi.name": { "bn-IN": "কারিগর সাথী", "en-IN": "Karigar Saathi", "hi-IN": "कारीगर साथी" },
     "saathi.role": { "bn-IN": "আপনার পাশে থাকা বাংলাভাষী রেজিস্ট্রেশন সহকারী", "en-IN": "The Bengali-speaking registration helper beside you", "hi-IN": "आपके पास रहने वाला बांग्ला बोलने वाला पंजीकरण सहायक" },
-    "hero.durgaAlt": { "bn-IN": "প্রত্যাবর্তনের ২০২৫ মহোৎসবে মা দুর্গা ও সঙ্গী দেবদেবী। মুখ ও মূর্তি পুরো দেখা যাচ্ছে।", "en-IN": "Maa Durga and the accompanying deities at the 2025 Protyabortan mahotsav. The faces and figures are shown in full.", "hi-IN": "प्रत्यावर्तन के २०२५ महोत्सव में माँ दुर्गा और साथी देवता। मुख और मूर्ति पूरी दिख रही है।" },
-    "hero.durgaCaption": { "bn-IN": "প্রত্যাবর্তন মহোৎসব ২০২৫-এর মা দুর্গা। এই ছবি সম্মানের জন্য।", "en-IN": "Maa Durga from the 2025 Protyabortan mahotsav, shown with respect.", "hi-IN": "प्रत्यावर्तन महोत्सव २०२५ की माँ दुर्गा। यह चित्र सम्मान के लिए है।" },
+    "story.invite3Alt": {
+      "bn-IN": "প্রত্যাবর্তন দুর্গাপূজা ২০২৬-এর আমন্ত্রণপত্রের তৃতীয় পাতা। বাঁশের মণ্ডপ ও মা দুর্গার চিত্র।",
+      "en-IN": "Page 3 of the Protyabortan Durga Puja 2026 invitation: a bamboo pandal and Maa Durga.",
+      "hi-IN": "प्रत्यावर्तन दुर्गा पूजा २०२६ के निमंत्रण का तीसरा पन्ना। बाँस का मंडप और माँ दुर्गा का चित्र।"
+    },
+    "story.invite3Cap": {
+      "bn-IN": "আমন্ত্রণপত্রের তৃতীয় পাতা।",
+      "en-IN": "Invitation, page 3.",
+      "hi-IN": "निमंत्रण का तीसरा पन्ना।"
+    },
     "story.title": { "bn-IN": "আপনাদের হাতেই তৈরি", "en-IN": "Built by your hands", "hi-IN": "आपके हाथों से बना" },
     "story.decorAlt": { "bn-IN": "মণ্ডপের সাজের কাজ করছেন কারিগরেরা।", "en-IN": "Workers putting up pandal decorations.", "hi-IN": "कारीगर मंडप की सजावट लगा रहे हैं।" },
     "story.decorCaption": { "bn-IN": "মণ্ডপের সাজসজ্জার কাজ।", "en-IN": "Decoration work on the pandal.", "hi-IN": "मंडप की सजावट का काम।" },
@@ -49,9 +155,9 @@
     "facts.date": { "bn-IN": "রবিবার, ১ নভেম্বর ২০২৬", "en-IN": "Sunday, 1 November 2026", "hi-IN": "रविवार, १ नवम्बर २०२६" },
     "facts.venueLabel": { "bn-IN": "স্থান", "en-IN": "Venue", "hi-IN": "स्थान" },
     "facts.venue": {
-      "bn-IN": "প্রত্যাবর্তন দুর্গাপুজোর একই অনুষ্ঠানস্থল, মুনশিভেরি, মহিষবাথান, সল্টলেক সেক্টর V, কলকাতা 700102",
-      "en-IN": "The Protyabortan Durga Puja venue, Munshi Bheri, Mahish Bathan, Salt Lake Sector V, Kolkata 700102",
-      "hi-IN": "प्रत्यावर्तन दुर्गा पूजा का वही स्थल, मुंशी भेरी, महिषबाथान, साल्ट लेक सेक्टर V, कोलकाता 700102"
+      "bn-IN": "প্রত্যাবর্তন দুর্গাপুজোর প্রাঙ্গণ, মুনশি ভেড়ি, মহিষবাথান, সল্টলেক সেক্টর V, কলকাতা ৭০০১০২।",
+      "en-IN": "Protyabortan Durga Puja grounds, Munshi Bheri, Mahish Bathan, Salt Lake Sector V, Kolkata 700102.",
+      "hi-IN": "प्रत्यावर्तन दुर्गा पूजा परिसर, मुंशी भेरी, महिषबाथान, साल्ट लेक सेक्टर V, कोलकाता 700102।"
     },
     "facts.orgLabel": { "bn-IN": "আয়োজক", "en-IN": "Organisers", "hi-IN": "आयोजक" },
     "facts.org": { "bn-IN": "KarmYog for the 21st Century এবং Bharatiya Krishak Samaj", "en-IN": "KarmYog for the 21st Century and Bharatiya Krishak Samaj", "hi-IN": "KarmYog for the 21st Century और Bharatiya Krishak Samaj" },
@@ -244,34 +350,53 @@
     "time.nightAlt": { "bn-IN": "রাতে আলোয় বাঁশের মণ্ডপ ও সামনের পথ।", "en-IN": "The bamboo pavilion and path, lit at night.", "hi-IN": "रात में रोशनी में बाँस का मंडप और सामने का रास्ता।" },
     "time.nightCap": { "bn-IN": "রাতের আলোয় দেখা যায় গড়ে ওঠা মণ্ডপ।", "en-IN": "At night the finished pavilion is visible in the light.", "hi-IN": "रात की रोशनी में बना मंडप दिखता है।" },
     "people.title": { "bn-IN": "যাঁদের হাতে গড়ে ওঠে", "en-IN": "The people whose hands built it", "hi-IN": "जिनके हाथों से यह बना" },
-    "people.note": { "bn-IN": "এখানে কাজের কথা আছে। নামের সঙ্গে মুখের ছবি এখনো দেওয়া হয়নি।", "en-IN": "These cards tell the work. A face is not shown with a name yet.", "hi-IN": "यहाँ काम की बात है। नाम के साथ चेहरा अभी नहीं दिखाया गया है।" },
+    "people.homeNote": { "bn-IN": "তাঁদের কাজের কথা এখানে সংক্ষেপে। পুরো পরিচয় পরের পাতায়।", "en-IN": "A short account of their work is here. The fuller introduction is on the next page.", "hi-IN": "उनके काम की छोटी बात यहाँ है। पूरा परिचय अगले पन्ने पर है।" },
+    "people.note": { "bn-IN": "কাজ ও জায়গার ছবি।", "en-IN": "Photographs of the work and the place.", "hi-IN": "काम और जगह की तस्वीरें।" },
+    "people.imageFallback": { "bn-IN": "ছবি এই মুহূর্তে খোলেনি। লেখাটি পড়া যাবে।", "en-IN": "The photograph did not open. The writing can still be read.", "hi-IN": "तस्वीर अभी नहीं खुली। लिखावट पढ़ी जा सकती है।" },
     "people.anilTitle": { "bn-IN": "অনিল সামন্ত", "en-IN": "Anil Samanta", "hi-IN": "अनिल सामंत" },
-    "people.anilRole": { "bn-IN": "উৎসবের আড়ালের যত্ন ও সমন্বয়", "en-IN": "Care and coordination behind the festival", "hi-IN": "उत्सव के पीछे देखभाल और तालमेल" },
-    "people.anilBody": { "bn-IN": "সাক্ষাৎকারে তিনি নিজের নাম বলেছেন। ভোরে পতাকা ও প্রার্থনার দায়িত্ব, আলো জ্বালানো, দলের আসা-যাওয়া সামলানো এবং রাতে তালিকা রাখার কথা বলেছেন। বাড়ির জেলা সাক্ষাৎকারে স্পষ্ট নয়, তাই সেটি এখানে নেই।", "en-IN": "In the interview he said his name. He spoke of the dawn flag and prayer, lighting, coordinating who arrives, and keeping lists late at night. His home district is not clear in the interview, so it is not given here.", "hi-IN": "साक्षात्कार में उन्होंने अपना नाम बताया। भोर में ध्वज और प्रार्थना, रोशनी जलाना, टीमों के आने-जाने का तालमेल और रात में सूची रखने की बात कही। घर का ज़िला साक्षात्कार में स्पष्ट नहीं, इसलिए यहाँ नहीं है।" },
+    "people.anilRole": { "bn-IN": "ভোরের যত্ন, আলো, ও রাতের তালিকা", "en-IN": "Dawn care, light, and the night lists", "hi-IN": "भोर की देखभाल, रोशनी, और रात की सूचियाँ" },
+    "people.anilTeaser": { "bn-IN": "ভোরের প্রার্থনায় পতাকা, মন্দিরের আলো, আর রাতে আসা দলের তালিকা।", "en-IN": "The dawn flag and prayer, the temple lamps, and the night lists of arriving crews.", "hi-IN": "भोर की प्रार्थना में ध्वज, मंदिर की रोशनी, और रात में आने वाले दलों की सूची।" },
+    "people.anilBody": { "bn-IN": "অনিল সামন্ত সাক্ষাৎকারে নিজের নাম বলেছেন। তিনি বলেন, ভোরের প্রার্থনায় পতাকা তোলা, মন্দিরে আলো জ্বালানো, আর যেখানে যা করতে বলা হয় সেখানে যাওয়া—এই কাজ তিনি সামলান। রাতে নাচ, গান, ঢাকি ও কলাকুশলীর দল এলে তালিকা দেখে সবার ব্যবস্থা রাখার কথাও তিনি বলেছেন। সহকর্মীরা তাঁকে কাকু বলে ডাকেন।", "en-IN": "In the interview Anil Samanta gave his own name. He described raising the flag at the dawn prayer, lighting the temple, and going wherever the work called him. He also spoke of keeping the lists when dance, music, dhaki and technical crews arrived at night, and of arranging things for them. Colleagues address him as kaku.", "hi-IN": "साक्षात्कार में अनिल सामंत ने अपना नाम कहा। उन्होंने भोर की प्रार्थना में ध्वज उठाने, मंदिर में दीप जलाने, और जहाँ काम बुलाए वहाँ जाने की बात कही। रात में नृत्य, संगीत, ढाकी और तकनीकी दल आने पर सूची देखकर सबका इंतज़ाम रखने की बात भी उन्होंने कही। साथी उन्हें काकू कहकर बुलाते हैं।" },
+    "people.anilAlt": { "bn-IN": "রাতের কাজের আলোয় বাঁশের কাঠামো।", "en-IN": "A bamboo frame under the night work-light.", "hi-IN": "रात के काम की रोशनी में बाँस का ढाँचा।" },
+    "people.anilCap": { "bn-IN": "রাতে বাঁশের কাঠামো।", "en-IN": "The bamboo frame at night.", "hi-IN": "रात में बाँस का ढाँचा।" },
     "people.paritoshTitle": { "bn-IN": "পরিতোষ কুমার মণ্ডল", "en-IN": "Paritosh Kumar Mondal", "hi-IN": "परितोष कुमार मंडल" },
-    "people.paritoshRole": { "bn-IN": "সাইটের কাজ দেখাশোনা ও সমন্বয়", "en-IN": "Coordinates and oversees site work", "hi-IN": "साइट के काम की देखरेख और तालमेल" },
-    "people.paritoshBody": { "bn-IN": "সাক্ষাৎকারে তিনি নিজের নাম বলেছেন। ২০০৯ সাল থেকে এই উদ্যোগের সঙ্গে যুক্ত থাকার কথা বলেছেন। সাইটে তিনি কাজ দেখাশোনা ও সমন্বয় করেন। কোনো নির্দিষ্ট পদবি এখানে দেওয়া হয়নি।", "en-IN": "In the interview he said his name. He said he has been associated with the initiative since 2009. On site he coordinates and oversees the work. No exact job title is given here.", "hi-IN": "साक्षात्कार में उन्होंने अपना नाम बताया। उन्होंने २००९ से इस पहल से जुड़े रहने की बात कही। साइट पर वे काम की देखरेख और तालमेल करते हैं। कोई निश्चित पदनाम यहाँ नहीं दिया गया है।" },
+    "people.paritoshRole": { "bn-IN": "মাঠের কাজের দেখাশোনা", "en-IN": "Oversight of the ground's work", "hi-IN": "मैदान के काम की देखरेख" },
+    "people.paritoshTeaser": { "bn-IN": "২০০৯ থেকে এই উদ্যোগে। আগে প্রাথমিক বিদ্যালয়ের শিক্ষক। মাঠের কাজের দেখাশোনা।", "en-IN": "With this work since 2009. Earlier a primary-school teacher. He watches the work on the ground.", "hi-IN": "२००९ से इस काम में। पहले प्राथमिक विद्यालय के शिक्षक। मैदान के काम की देखरेख।" },
+    "people.paritoshBody": { "bn-IN": "সাক্ষাৎকারে পরিতোষ কুমার মণ্ডল নিজের নাম বলেছেন। তিনি বলেন, ২০০৯ সাল থেকে এই উদ্যোগের সঙ্গে আছেন, আর তার আগে তিনি প্রাথমিক বিদ্যালয়ের শিক্ষক ছিলেন। সাক্ষাৎকারকারী মাঠজুড়ে ‘পরিতোষদা’ ডাক শুনেছেন। কারিগরেরা কোথায় কী করবেন, সেই দেখাশোনার কথাও আলাপে আছে। অনিল সামন্ত তাঁকে সুপারভাইজার বলে উল্লেখ করেছেন।", "en-IN": "In the interview Paritosh Kumar Mondal gave his own name. He said he has been with this work since 2009, and that before that he was a primary-school teacher. The interviewer heard people calling Paritosh-da across the ground. The conversation also describes him seeing where the karigars work. Anil Samanta referred to him as supervisor.", "hi-IN": "साक्षात्कार में परितोष कुमार मंडल ने अपना नाम कहा। उन्होंने कहा कि वे २००९ से इस काम से जुड़े हैं, और उससे पहले प्राथमिक विद्यालय के शिक्षक थे। साक्षात्कारकर्ता ने मैदान भर में ‘परितोषदा’ की पुकार सुनी। कारीगर कहाँ क्या करेंगे, उस देखरेख की बात भी बातचीत में है। अनिल सामंत ने उन्हें सुपरवाइजर कहा।" },
+    "people.paritoshAlt": { "bn-IN": "জলাশয়ের ওপর বাঁশের ছাউনি ও ধারের সবুজ।", "en-IN": "A bamboo shelter over the water, with greenery on the bank.", "hi-IN": "जल के ऊपर बाँस की छत और किनारे की हरियाली।" },
+    "people.paritoshCap": { "bn-IN": "জলাশয়ের ওপর বাঁশের ছাউনি।", "en-IN": "A bamboo shelter over the water.", "hi-IN": "जल के ऊपर बाँस की छत।" },
     "people.santoshTitle": { "bn-IN": "সন্তোষ মণ্ডল", "en-IN": "Santosh Mondal", "hi-IN": "संतोष मंडल" },
-    "people.santoshRole": { "bn-IN": "বাঁশের কাজে অভিজ্ঞ হাত", "en-IN": "Skilled hands in bamboo work", "hi-IN": "बाँस के काम में अनुभवी हाथ" },
-    "people.santoshBody": { "bn-IN": "সাক্ষাৎকারে তিনি নিজের নাম বলেছেন। সামনে বাঁশ ছিলে আকার দেওয়ার কাজ চলছিল। তিনি ২০১২–১৩ সাল থেকে যুক্ত থাকার কথা বলেছেন।", "en-IN": "In the interview he said his name. Bamboo was being shaved and shaped in front of him. He said his association began around 2012–13.", "hi-IN": "साक्षात्कार में उन्होंने अपना नाम बताया। सामने बाँस छीलकर आकार देने का काम चल रहा था। उन्होंने २०१२–१३ से जुड़े रहने की बात कही।" },
+    "people.santoshRole": { "bn-IN": "বাঁশ ছিলে আকার দেওয়ার হাত", "en-IN": "Hands that shave and shape bamboo", "hi-IN": "बाँस छीलकर आकार देने वाले हाथ" },
+    "people.santoshTeaser": { "bn-IN": "সামনে বাঁশ ছিলে আকার দিচ্ছিলেন। এই কাজের সঙ্গে মোটামুটি ২০১২–১৩ থেকে।", "en-IN": "Bamboo was being shaved and shaped in front of him. He has been with this work since about 2012–13.", "hi-IN": "सामने बाँस छीलकर आकार दिया जा रहा था। इस काम से लगभग २०१२–१३ से जुड़े हैं।" },
+    "people.santoshBody": { "bn-IN": "সন্তোষ মণ্ডল সাক্ষাৎকারে নিজের নাম বলেছেন। সেই সময় সামনে বাঁশ ছিলে ছিলে নানা বাঁশের জিনিস তৈরি হচ্ছিল। তিনি বলেন, এই কাজের সঙ্গে তিনি মোটামুটি ২০১২–১৩ সাল থেকে যুক্ত। বাঁশের এই হাতের কাজে ধৈর্য ও দীর্ঘ অভ্যাস লাগে। সাক্ষাৎকারের সেই মুহূর্তে কাজটি চোখের সামনেই চলছিল।", "en-IN": "In the interview Santosh Mondal gave his own name. Bamboo was being shaved and shaped into pieces in front of him. He said he has been with this work since about 2012–13. That handwork takes patience and long practice. In that moment of the interview, the work was going on in front of the camera.", "hi-IN": "साक्षात्कार में संतोष मंडल ने अपना नाम कहा। उस समय सामने बाँस छीलकर तरह-तरह की बाँस की चीज़ें बन रही थीं। उन्होंने कहा कि इस काम से वे लगभग २०१२–१३ से जुड़े हैं। बाँस के इस हाथ-काम में धैर्य और लम्बी आदत लगती है। साक्षात्कार के उस क्षण काम आँखों के सामने चल रहा था।" },
+    "people.santoshAlt": { "bn-IN": "বাঁশের কাঠামো বাঁধা হচ্ছে।", "en-IN": "A bamboo frame being tied.", "hi-IN": "बाँस का ढाँचा बाँधा जा रहा है।" },
+    "people.santoshCap": { "bn-IN": "বাঁশের কাঠামোর কাজ।", "en-IN": "Bamboo-frame work.", "hi-IN": "बाँस के ढाँचे का काम।" },
+    "people.galleryTitle": { "bn-IN": "রাতের মণ্ডপ", "en-IN": "The pavilion at night", "hi-IN": "रात में मंडप" },
+    "people.galleryNote": { "bn-IN": "রাতের মণ্ডপ।", "en-IN": "The pavilion at night.", "hi-IN": "रात में मंडप।" },
+    "people.clip8Alt": { "bn-IN": "রাতে দুজন মানুষ দাঁড়িয়ে আছেন।", "en-IN": "Two people standing at night.", "hi-IN": "रात में दो लोग खड़े हैं।" },
+    "people.clip8Cap": { "bn-IN": "রাতে দুজন মানুষ।", "en-IN": "Two people at night.", "hi-IN": "रात में दो लोग।" },
+    "people.clip50Alt": { "bn-IN": "রাতে রঙিন বাঁশের খিলান ও আলোর ফ্রেম।", "en-IN": "Coloured bamboo arches and a lit frame at night.", "hi-IN": "रात में रंगीन बाँस के मेहराब और रोशनी का फ्रेम।" },
+    "people.clip50Cap": { "bn-IN": "রাতে রঙিন বাঁশের খিলান।", "en-IN": "Coloured bamboo arches at night.", "hi-IN": "रात में रंगीन बाँस के मेहराब।" },
     "story.pageTitle": { "bn-IN": "গড়ে ওঠার গল্প", "en-IN": "How the place was built", "hi-IN": "जगह कैसे बनी" },
     "story.concept": { "bn-IN": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।", "en-IN": "From a heap of waste to a pavilion of light: the transformation of Protyabortan in the karigars' hands.", "hi-IN": "कचरे के ढेर से रोशनी का मंडप: कारीगरों के हाथों प्रत्यावर्तन का रूपांतरण।" },
-    "story.lead": { "bn-IN": "মুনশিভেরির এই জমি একসময় ফেলে দেওয়া বর্জ্যে ঢাকা ছিল। পরিষ্কার, বাঁশ, পথ, সাজ আর আলোর কাজে সেটি প্রত্যাবর্তনের মণ্ডপ হয়ে উঠেছে। এই পাতা সেই পথের কথা বলে।", "en-IN": "This ground at Munshi Bheri was once covered with discarded waste. Clearing, bamboo, paths, decoration and light turned it into the Protyabortan pavilion. This page follows that path.", "hi-IN": "मुंशीभेरी की यह ज़मीन कभी फेंके हुए कचरे से ढकी थी। सफ़ाई, बाँस, रास्ते, सजावट और रोशनी ने उसे प्रत्यावर्तन का मंडप बनाया। यह पन्ना वही रास्ता बताता है।" },
+    "story.lead": { "bn-IN": "মুনশিভেরির এই জমি একসময় ফেলে দেওয়া বর্জ্যে ঢাকা ছিল। পরিষ্কার, বাঁশ, পথ, সাজ আর আলোর কাজে সেটি প্রত্যাবর্তনের মণ্ডপ হয়ে উঠেছে।", "en-IN": "This ground at Munshi Bheri was once covered with discarded waste. Clearing, bamboo, paths, decoration and light turned it into the Protyabortan pavilion.", "hi-IN": "मुंशीभेरी की यह ज़मीन कभी फेंके हुए कचरे से ढकी थी। सफ़ाई, बाँस, रास्ते, सजावट और रोशनी ने उसे प्रत्यावर्तन का मंडप बनाया।" },
     "story.c1Title": { "bn-IN": "আগে যা ছিল", "en-IN": "What was here before", "hi-IN": "पहले यहाँ क्या था" },
-    "story.c1": { "bn-IN": "সরবরাহ করা ছবিতে জমি জুড়ে নির্মাণবর্জ্য, আবর্জনা আর কাদামাখা অসম পথ দেখা যায়। হাঁটার মতো পরিষ্কার জায়গা তখন তৈরি ছিল না। এই ছবি কোনো এক দিনের খতিয়ান নয়। এগুলো জায়গাটি বদলের আগের চেহারা।", "en-IN": "The supplied photographs show construction waste, rubbish and a muddy, uneven path across the ground. A clear place to walk was not ready then. These pictures are not a log of one date. They show the place before it changed.", "hi-IN": "दी गई तस्वीरों में ज़मीन पर निर्माण का कचरा, गंदगी और कीचड़ भरा ऊँचा-नीचा रास्ता दिखता है। चलने लायक साफ़ जगह तब तैयार नहीं थी। ये तस्वीरें किसी एक तारीख का हिसाब नहीं हैं। ये जगह के बदलने से पहले का रूप हैं।" },
+    "story.c1": { "bn-IN": "একসময় এই জমিতে ফেলে দেওয়া নির্মাণবর্জ্য, আবর্জনা আর কাদামাখা অসম পথ ছিল। সেই চেহারায় উৎসবের মণ্ডপ কল্পনা করা সহজ ছিল না।", "en-IN": "This ground once held discarded construction waste, rubbish and a muddy, uneven path. A festival pavilion was not easy to imagine in that state.", "hi-IN": "कभी इस ज़मीन पर फेंका हुआ निर्माण-कचरा, गंदगी और कीचड़ भरा ऊँचा-नीचा रास्ता था। उस रूप में उत्सव का मंडप कल्पना करना आसान नहीं था।" },
     "story.c2Title": { "bn-IN": "জমি সরানো ও প্রস্তুতি", "en-IN": "Clearing and preparing the ground", "hi-IN": "ज़मीन साफ़ करना और तैयारी" },
-    "story.c2": { "bn-IN": "ভাঙা ইট ও মাটির কাছে একটি এক্সকাভেটর কাজ করতে দেখা যায়। জলাশয়ের ধারের খোলা জমিও এই পরিসরের অংশ। কতজন, কত ঘণ্টা বা কত টাকায় এই পরিষ্কার হয়েছে, সেই হিসাব এখানে নেই। ছবিতে যা দেখা যায়, সেটুকুই বলা হচ্ছে।", "en-IN": "An excavator is at work beside broken brick and soil. The open ground by the water is part of the same stretch. How many people, hours or rupees this clearing took is not stated here. Only what the photographs show is described.", "hi-IN": "टूटी ईंट और मिट्टी के पास एक एक्सकेवेटर काम करता दिखता है। जल के किनारे की खुली ज़मीन भी इसी परिसर का हिस्सा है। सफ़ाई में कितने लोग, कितने घंटे या कितने रुपये लगे, वह हिसाब यहाँ नहीं है। तस्वीर में जो दिखता है, वही कहा गया है।" },
+    "story.c2": { "bn-IN": "বদলের শুরু জমি সরিয়ে কাজের জায়গা তৈরি করা। ভাঙা ইট ও মাটির কাছে একটি এক্সকাভেটর দেখা যায়। জলাশয়ের ধারের খোলা জমিও এই পরিসরের অংশ।", "en-IN": "The change began by clearing the ground into a place where work could start. An excavator stands beside broken brick and soil. The open bank by the water is part of the same stretch.", "hi-IN": "बदलाव की शुरुआत ज़मीन हटाकर काम की जगह बनाने से हुई। टूटी ईंट और मिट्टी के पास एक एक्सकेवेटर दिखता है। जल के किनारे की खुली ज़मीन भी इसी परिसर का हिस्सा है।" },
     "story.c3Title": { "bn-IN": "বাঁশের কাঠামো", "en-IN": "The bamboo framework", "hi-IN": "बाँस का ढाँचा" },
-    "story.c3": { "bn-IN": "জমি তৈরি হওয়ার পর বাঁশের কাঠামো বাঁধা হয়েছে। ছবিতে একজন কারিগর মুনশিভেরিতে বাঁশের ফ্রেমের কাজে আছেন। এটি কোনো নাম-দেওয়া প্রতিকৃতি নয়। অফিসিয়াল সাইটে প্রথম বাঁশের কথা ২১ সেপ্টেম্বর এবং ফ্রেম গড়ে ওঠার কথা ২৪ সেপ্টেম্বর লেখা আছে। এই ছবি সেই তারিখের বলে দাবি করা হয়নি।", "en-IN": "After the ground was prepared, the bamboo framework was tied. In the photograph a karigar is at the bamboo frame in Munshi Bheri. It is not a named portrait. The official site records first bamboo on 21 September and frames taking shape on 24 September. This photograph is not claimed as one of those dates.", "hi-IN": "ज़मीन तैयार होने के बाद बाँस का ढाँचा बाँधा गया। तस्वीर में एक कारीगर मुंशीभेरी में बाँस के फ्रेम पर काम कर रहे हैं। यह किसी नाम वाला चित्र नहीं है। आधिकारिक साइट पर पहला बाँस २१ सितम्बर और फ्रेम बनना २४ सितम्बर लिखा है। इस तस्वीर को उन तारीखों की नहीं कहा गया है।" },
+    "story.c3": { "bn-IN": "জমি তৈরি হওয়ার পর বাঁশের কাঠামো বাঁধা হয়েছে। অফিসিয়াল সাইটের ২১ সেপ্টেম্বর ২০২৬-এর ছবিতে একজন কারিগর বাঁশের ফ্রেম বাঁধছেন। বাঁশ বাঁশের সঙ্গে বাঁধা, আর কাজ ফ্রেমের মধ্যেই চলছে।", "en-IN": "After the ground was prepared, the bamboo framework was tied. In the official site's photograph of 21 September 2026, a karigar is tying the bamboo frame. The poles are lashed together, and the work goes on inside that frame.", "hi-IN": "ज़मीन तैयार होने के बाद बाँस का ढाँचा बाँधा गया। आधिकारिक साइट की २१ सितम्बर २०२६ की तस्वीर में एक कारीगर बाँस का फ्रेम बाँध रहे हैं। बाँस एक-दूसरे से बँधे हैं, और काम उसी फ्रेम के भीतर चल रहा है।" },
     "story.c4Title": { "bn-IN": "পথ, রেলিং, সাজ ও সবুজ", "en-IN": "Paths, rails, decoration and greenery", "hi-IN": "रास्ते, रेलिंग, सजावट और हरियाली" },
-    "story.c4": { "bn-IN": "তারপর এসেছে হাঁটার পথ, রেলিং, ছাদ ও সাজের কাজ। এক ছবিতে মণ্ডপের সাজ লাগানো হচ্ছে। আরেক ছবিতে জলাশয়ের ধারে গাছের থলি ও বাঁশের রেলিং। অফিসিয়াল সাইটে ৭ অক্টোবর ছাদ, হাঁটার পথ ও প্রথম সাজ, এবং ৮ অক্টোবর কুঁড়ে, রেলিং ও পুকুরের পথের কথা আছে। সেই খতিয়ান আলাদা। এই ছবিগুলো সেই দিনের বলে বাঁধা হয়নি।", "en-IN": "Then came walkways, railings, roofs and decoration. One photograph shows pandal decoration going up. Another shows bagged plants and a bamboo rail beside the water. The official site lists roofs, walkways and first decoration on 7 October, and huts, railings and the pond walk on 8 October. That log is separate. These photographs are not tied to those days.", "hi-IN": "फिर आए चलने के रास्ते, रेलिंग, छत और सजावट। एक तस्वीर में मंडप की सजावट लग रही है। दूसरी में जल के किनारे थैलों में पौधे और बाँस की रेलिंग है। आधिकारिक साइट पर ७ अक्टूबर छत, रास्ते और पहली सजावट, और ८ अक्टूबर झोपड़ी, रेलिंग और तालाब का रास्ता लिखा है। वह खाता अलग है। ये तस्वीरें उन दिनों से नहीं बाँधी गईं।" },
+    "story.c4": { "bn-IN": "তারপর এসেছে হাঁটার পথ, রেলিং, ছাদ ও সাজ। এক ছবিতে মণ্ডপের সাজ লাগানো হচ্ছে। আরেক ছবিতে জলাশয়ের ধারে গাছের থলি ও বাঁশের রেলিং। অফিসিয়াল সাইটের ৭ অক্টোবর ২০২৬-এর ছবিতে জলাশয়ের ওপর বাঁশের ছাউনি, ধারের সবুজ ও একটি বাঁশের ভেলা দেখা যায়।", "en-IN": "Then came walkways, railings, roofs and decoration. One photograph shows the pandal decoration going up. Another shows bagged plants and a bamboo rail beside the water. The official site's photograph of 7 October 2026 shows a bamboo shelter over the water, greenery on the bank, and a bamboo raft.", "hi-IN": "फिर आए चलने के रास्ते, रेलिंग, छत और सजावट। एक तस्वीर में मंडप की सजावट लग रही है। दूसरी में जल के किनारे थैलों में पौधे और बाँस की रेलिंग है। आधिकारिक साइट की ७ अक्टूबर २०२६ की तस्वीर में जल के ऊपर बाँस की छत, किनारे की हरियाली और एक बाँस का बेड़ा दिखता है।" },
+    "story.oct7Alt": { "bn-IN": "জলাশয়ের ওপর বাঁশের ছাউনি, ধারে সবুজ, আর জলে একটি বাঁশের ভেলা। অফিসিয়াল সাইটের ৭ অক্টোবর ২০২৬-এর ছবি।", "en-IN": "A bamboo shelter over the water, greenery on the bank, and a bamboo raft. Official-site photograph, 7 October 2026.", "hi-IN": "जल के ऊपर बाँस की छत, किनारे पर हरियाली, और पानी में एक बाँस का बेड़ा। आधिकारिक साइट की ७ अक्टूबर २०२६ की तस्वीर।" },
+    "story.oct7Cap": { "bn-IN": "অফিসিয়াল সাইট, ৭ অক্টোবর ২০২৬: ছাদ, জলাশয় ও ধারের সবুজ।", "en-IN": "Official site, 7 October 2026: the roof, the water and the bank's greenery.", "hi-IN": "आधिकारिक साइट, ७ अक्टूबर २०२६: छत, जल और किनारे की हरियाली।" },
     "story.c5Title": { "bn-IN": "সন্ধ্যা ও আলো", "en-IN": "Evening and light", "hi-IN": "शाम और रोशनी" },
-    "story.c5": { "bn-IN": "কাজ সন্ধ্যা পেরিয়েও চলেছে। রাতের ছবিতে বাঁশের মণ্ডপ, রেলিং ও সামনের পথ আলোয় দেখা যায়। অফিসিয়াল সাইটে ২৮ সেপ্টেম্বর রাতের কাজের কথা আছে। এই রাতের ছবি সেই তারিখের নয়। ", "en-IN": "Work continued past evening. The night photograph shows the lit bamboo pavilion, railings and the path in front. The official site records night work on 28 September. This night photograph is not that date.", "hi-IN": "काम शाम के बाद भी चला। रात की तस्वीर में बाँस का मंडप, रेलिंग और सामने का रास्ता रोशनी में दिखता है। आधिकारिक साइट पर २८ सितम्बर रात का काम लिखा है। यह रात की तस्वीर उस तारीख की नहीं है।" },
+    "story.c5": { "bn-IN": "সন্ধ্যা পেরিয়েও আলো জ্বলে। রাতের ছবিতে বাঁশের মণ্ডপ, বাঁকা রেলিং, সামনের মাটির পথ ও আলোর সারি দেখা যায়। একটি ছোট রাতের দৃশ্যে পথের ধারে টবে গাছ, রেলিংয়ে ছোট আলো, এবং গোলাপি ও হলুদ কাপড়-জড়ানো বাঁশের খিলানও দেখা যায়।", "en-IN": "The lights stay on after evening. The night photograph shows the bamboo pavilion, curved railings, the earth path in front and rows of lamps. A short night view also shows potted plants along the path, small lights on the railing, and bamboo arches wrapped in pink and yellow cloth.", "hi-IN": "शाम के बाद भी रोशनी जलती रहती है। रात की तस्वीर में बाँस का मंडप, मुड़ी रेलिंग, सामने का मिट्टी का रास्ता और रोशनी की कतार दिखती है। एक छोटे रात के दृश्य में रास्ते के किनारे गमलों के पौधे, रेलिंग पर छोटी रोशनी, और गुलाबी व पीले कपड़े में लिपटे बाँस के मेहराब भी दिखते हैं।" },
     "story.c6Title": { "bn-IN": "যাঁদের হাতে এল এই রূপ", "en-IN": "The people behind this change", "hi-IN": "जिनके हाथों से यह रूप आया" },
-    "story.c6": { "bn-IN": "মণ্ডপ নিজে থেকে ওঠেনি। বাঁশ ছাঁটা, কাঠামো বাঁধা, জায়গা বুঝিয়ে দেওয়া, ভোরের আলো ও রাতের তালিকা—এসব মানুষের কাজ। সাক্ষাৎকারে যাঁরা নিজের নাম বলেছেন, তাঁদের কাজের কথা আলাদা পাতায় আছে। মুখ দেখে নাম ধরা হয়নি। কতজন কাজ করেছেন, সেই সংখ্যা এখানে নেই।", "en-IN": "The pavilion did not rise by itself. Shaping bamboo, tying the frame, showing people where to work, dawn light and night lists are people's work. Those who said their own names in the interview are on a separate page. No face has been matched to a name. How many people worked is not stated here.", "hi-IN": "मंडप अपने आप नहीं उठा। बाँस छीलना, ढाँचा बाँधना, जगह समझाना, भोर की रोशनी और रात की सूची—ये लोगों का काम है। साक्षात्कार में जिन्होंने अपना नाम कहा, उनकी बात अलग पन्ने पर है। चेहरा देखकर नाम नहीं जोड़ा गया। कितने लोगों ने काम किया, वह संख्या यहाँ नहीं है।" },
+    "story.c6": { "bn-IN": "মণ্ডপ নিজে থেকে ওঠেনি। বাঁশ ছাঁটা, কাঠামো বাঁধা, কে কোথায় কাজ করবেন তা বুঝিয়ে দেওয়া, ভোরের পতাকা ও আলো, রাতে আগত দলের তালিকা—এসব মানুষের কাজ। যাঁরা সাক্ষাৎকারে নিজের নাম বলেছেন, তাঁদের কথা পরের পাতায়।", "en-IN": "The pavilion did not rise by itself. Shaping bamboo, tying the frame, showing each person where to work, the dawn flag and lamps, and the night lists of arriving crews are people's work. Those who said their own names in the interview are on the next page.", "hi-IN": "मंडप अपने आप नहीं उठा। बाँस छीलना, ढाँचा बाँधना, कौन कहाँ काम करेगा यह समझाना, भोर का ध्वज और रोशनी, और रात में आने वाले दलों की सूची—ये लोगों का काम है। साक्षात्कार में जिन्होंने अपना नाम कहा, उनकी बात अगले पन्ने पर है।" },
     "story.c7Title": { "bn-IN": "কেন এই বিজয়া সম্মিলনী", "en-IN": "Why this Vijay Sammelan", "hi-IN": "यह विजया सम्मेलन क्यों" },
-    "story.c7": { "bn-IN": "আপনাদের হাতে গড়ে উঠেছে প্রত্যাবর্তন। এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী। দিন রবিবার, ১ নভেম্বর ২০২৬। জায়গা প্রত্যাবর্তন দুর্গাপূজা প্রাঙ্গণ, মুনশিভেরি, মহিষবাথান, সল্টলেক সেক্টর ৫, কলকাতা ৭০০১০২। আয়োজক কারমযোগ ফর দ্য ২১স্ট সেঞ্চুরি ও ভারতীয় কৃষক সমাজ। পুজোর দিন ১৬ থেকে ২০ অক্টোবর ২০২৬। সম্মিলনী সেই দিনগুলোর মধ্যে নয়।", "en-IN": "Protyabortan has been built by your hands. This Vijay Sammelan is to honour you. The day is Sunday, 1 November 2026. The place is the Protyabortan Durga Puja venue, Munshi Bheri, Mahish Bathan, Salt Lake Sector V, Kolkata 700102. The organisers are KarmYog for the 21st Century and Bharatiya Krishak Samaj. The Puja days are 16 to 20 October 2026. The Sammelan is not one of those days.", "hi-IN": "आपके हाथों प्रत्यावर्तन बना है। अब आपके सम्मान में हमारी विजया सम्मेलनी है। दिन रविवार, १ नवम्बर २०२६। जगह प्रत्यावर्तन दुर्गा पूजा प्रांगण, मुंशीभेरी, महिषबाथान, साल्ट लेक सेक्टर ५, कोलकाता ७००१०२। आयोजक कार्मयोग फॉर द २१स्ट सेंचुरी और भारतीय कृषक समाज हैं। पूजा के दिन १६ से २० अक्टूबर २०२६ हैं। सम्मेलन उन दिनों में नहीं है।" },
-    "story.calendarNote": { "bn-IN": "নিচের তারিখ অফিসিয়াল সাইটের কাজের খতিয়ান। উপরের কোনো ছবির সঙ্গে এই তারিখ জোড়া হয়নি।", "en-IN": "The dates below are the official site's work log. No photograph above is tied to one of these dates.", "hi-IN": "नीचे की तारीखें आधिकारिक साइट का काम का खाता हैं। ऊपर की किसी तस्वीर को इन तारीखों से नहीं जोड़ा गया है।" },
+    "story.c7": { "bn-IN": "আপনাদের হাতে গড়ে উঠেছে প্রত্যাবর্তন। এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী। দিন রবিবার, ১ নভেম্বর ২০২৬। জায়গা প্রত্যাবর্তন দুর্গাপূজা প্রাঙ্গণ, মুনশিভেরি, মহিষবাথান, সল্টলেক সেক্টর ৫, কলকাতা ৭০০১০২। আয়োজক কারমযোগ ফর দ্য ২১স্ট সেঞ্চুরি ও ভারতীয় কৃষক সমাজ। পুজোর দিন ১৬ থেকে ২০ অক্টোবর ২০২৬। অফিসিয়াল সাইটে দশমী ও বিসর্জন ২১ অক্টোবর লেখা আছে। সম্মিলনী সেই দিনগুলোর কোনোটি নয়।", "en-IN": "Protyabortan has been built by your hands. This Vijay Sammelan is to honour you. The day is Sunday, 1 November 2026. The place is the Protyabortan Durga Puja venue, Munshi Bheri, Mahish Bathan, Salt Lake Sector V, Kolkata 700102. The organisers are KarmYog for the 21st Century and Bharatiya Krishak Samaj. The Puja days are 16 to 20 October 2026. The official site lists Dashami and immersion on 21 October. The Sammelan is none of those days.", "hi-IN": "आपके हाथों प्रत्यावर्तन बना है। अब आपके सम्मान में हमारी विजया सम्मेलनी है। दिन रविवार, १ नवम्बर २०२६। जगह प्रत्यावर्तन दुर्गा पूजा प्रांगण, मुंशीभेरी, महिषबाथान, साल्ट लेक सेक्टर ५, कोलकाता ७००१०२। आयोजक कार्मयोग फॉर द २१स्ट सेंचुरी और भारतीय कृषक समाज हैं। पूजा के दिन १६ से २० अक्टूबर २०२६ हैं। आधिकारिक साइट पर दशमी और विसर्जन २१ अक्टूबर लिखा है। सम्मेलन उन दिनों में से कोई नहीं है।" },
+    "story.calendarNote": { "bn-IN": "নিচের তারিখ প্রত্যাবর্তনের অফিসিয়াল সাইটের কাজের খতিয়ান।", "en-IN": "The dates below are the work log on the official Protyabortan site.", "hi-IN": "नीचे की तारीखें प्रत्यावर्तन की आधिकारिक साइट के काम का खाता हैं।" },
     "story.clearAlt": { "bn-IN": "ভাঙা ইট ও মাটির কাছে একটি হলুদ এক্সকাভেটর।", "en-IN": "A yellow excavator beside broken brick and soil.", "hi-IN": "टूटी ईंट और मिट्टी के पास एक पीला एक्सकेवेटर।" },
     "story.clearCap": { "bn-IN": "জমি পরিষ্কারের সময় একটি এক্সকাভেটর কাজ করছে।", "en-IN": "An excavator at work while the ground is being cleared.", "hi-IN": "ज़मीन साफ़ होते समय एक एक्सकेवेटर काम कर रहा है।" },
     "story.mudAlt": { "bn-IN": "কাদামাখা পথ ও নির্মাণবর্জ্য।", "en-IN": "A muddy path and construction waste.", "hi-IN": "कीचड़ भरा रास्ता और निर्माण कचरा।" },
@@ -282,7 +407,7 @@
     "story.greenCap": { "bn-IN": "জলাশয়ের ধারে সবুজ ও বাঁশের রেলিং।", "en-IN": "Greenery and a bamboo rail beside the water.", "hi-IN": "जल के किनारे हरियाली और बाँस की रेलिंग।" },
     "story.close": { "bn-IN": "আলোয় মণ্ডপ দেখা যায়। সেই আলোর আড়ালে থাকে কারিগরদের হাত। এই সম্মিলনী তাঁদের সম্মানের জন্য।", "en-IN": "The lit pavilion is what people see. Behind that light are the karigars' hands. This gathering is to honour them.", "hi-IN": "रोशनी में मंडप दिखता है। उस रोशनी के पीछे कारीगरों के हाथ हैं। यह सम्मेलन उनके सम्मान के लिए है।" },
     "story.calendarTitle": { "bn-IN": "অফিসিয়াল সাইটে কাজের ধাপ", "en-IN": "Work steps on the official site", "hi-IN": "आधिकारिक साइट पर काम के चरण" },
-    "story.calendar": { "bn-IN": "প্রত্যাবর্তনের অফিসিয়াল সাইটে মুনশিভেরির কাজ এভাবে লেখা আছে: ২১ সেপ্টেম্বর প্রথম বাঁশ, ২৪ সেপ্টেম্বর দেয়াল ও মাচা, ২৮ সেপ্টেম্বর রাতের কাজ, ৭ অক্টোবর ছাদ ও হাঁটার পথ, ৮ অক্টোবর কুঁড়ে ও রেলিং, ৯ অক্টোবর মাটির কাজ। পুজো ১৬ থেকে ২০ অক্টোবর। বিজয়া সম্মিলনী আলাদা দিন: ১ নভেম্বর ২০২৬।", "en-IN": "The official Protyabortan site lists the Munshi Bheri work as: 21 September first bamboo, 24 September walls and platforms, 28 September night work, 7 October roofs and walkways, 8 October huts and railings, 9 October clay. The Puja is 16 to 20 October. The Vijay Sammelan is a different day: 1 November 2026.", "hi-IN": "प्रत्यावर्तन की आधिकारिक साइट पर मुंशीभेरी का काम इस तरह लिखा है: २१ सितम्बर पहला बाँस, २४ सितम्बर दीवार और मंच, २८ सितम्बर रात का काम, ७ अक्टूबर छत और रास्ते, ८ अक्टूबर झोपड़ी और रेलिंग, ९ अक्टूबर मिट्टी का काम। पूजा १६ से २० अक्टूबर है। विजया सम्मेलन अलग दिन है: १ नवम्बर २०२६।" },
+    "story.calendar": { "bn-IN": "প্রত্যাবর্তনের অফিসিয়াল সাইটে মুনশিভেরির কাজ এভাবে লেখা আছে: ২১ সেপ্টেম্বর প্রথম বাঁশ, ২৪ সেপ্টেম্বর দেয়াল, মাচা ও ভেলা, ২৮ সেপ্টেম্বর রাতের কাজ, ৭ অক্টোবর ছাদ, হাঁটার পথ ও প্রথম সাজ, ৮ অক্টোবর কুঁড়ে, রেলিং ও পুকুরের পথ, ৯ অক্টোবর মাটির কাজ। পুজোর দিন ১৬ থেকে ২০ অক্টোবর। দশমী ও বিসর্জন ২১ অক্টোবর। বিজয়া সম্মিলনী আলাদা দিন: রবিবার, ১ নভেম্বর ২০২৬।", "en-IN": "The official Protyabortan site lists the Munshi Bheri work as: 21 September first bamboo, 24 September walls, platforms and a raft, 28 September night work, 7 October roofs, walkways and the first decoration, 8 October huts, railings and the pond walk, 9 October clay. The Puja days are 16 to 20 October. Dashami and immersion are listed on 21 October. The Vijay Sammelan is a different day: Sunday, 1 November 2026.", "hi-IN": "प्रत्यावर्तन की आधिकारिक साइट पर मुंशीभेरी का काम इस तरह लिखा है: २१ सितम्बर पहला बाँस, २४ सितम्बर दीवार, मंच और बेड़ा, २८ सितम्बर रात का काम, ७ अक्टूबर छत, रास्ते और पहली सजावट, ८ अक्टूबर झोपड़ी, रेलिंग और तालाब का रास्ता, ९ अक्टूबर मिट्टी का काम। पूजा के दिन १६ से २० अक्टूबर हैं। दशमी और विसर्जन २१ अक्टूबर है। विजया सम्मेलन अलग दिन है: रविवार, १ नवम्बर २०२६।" },
     "people.watch": { "bn-IN": "সাক্ষাৎকারের ভিডিও দেখুন", "en-IN": "Watch the interview video", "hi-IN": "साक्षात्कार का वीडियो देखें" },
     "people.watchNote": { "bn-IN": "ভিডিওতে যাঁরা নিজে নাম বলেছেন, তাঁদের কাজের কথা এখানে আছে।", "en-IN": "These cards follow people who said their own names in the video.", "hi-IN": "ये कार्ड उन्हीं के हैं जिन्होंने वीडियो में अपना नाम कहा।" },
     "admin.exports": { "bn-IN": "তালিকা নামান", "en-IN": "Download lists", "hi-IN": "सूचियाँ डाउनलोड करें" },

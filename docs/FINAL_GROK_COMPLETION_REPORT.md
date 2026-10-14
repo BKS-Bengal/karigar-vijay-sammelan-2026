@@ -7,6 +7,50 @@ Branch: `main`, tracking `origin/main`
 
 This report matches the checks that were actually run. A checkbox is complete only where the evidence is named below.
 
+## 22. Final pass — artisan GIF, public notes, page slide
+
+Local checks only. A hosted Vercel URL is not claimed in this section.
+
+| Check | Result |
+| --- | --- |
+| Production notes on public HTML and `js/i18n.js` | PASS. A search found none of the local-video or “not a portrait” captions. Rendered pages in `preview/2026-10-14-final/report.json` also recorded `notes: false`. |
+| Hero GIF file | PASS. Pillow: 720×405, 48 frames, 2,144,897 bytes, loop 0. Delays 120 ms × 23 and 130 ms × 25. Total 6.01 s, about 8 fps. Not 1600×900 and not 10–15 fps. |
+| Hero GIF in the browser | PASS. `gif-loop-a.jpg` and `gif-loop-b.jpg`, one second apart, hero crop changed by 20,751 pixels. |
+| Static master and reduced-motion still | PASS as files. Master 1280×720, 165,560 bytes. Static 1280×720, 120,418 bytes. Reduced motion in Edge loaded the static WebP. Pause click swapped to that still. |
+| Right-to-left route change | PASS for the JavaScript fallback in this Edge. `transition-leaving.jpg` plus an entering transform of about 262 px on `/karigar-vijaya-sammelan/story/`. CSS `@view-transition` is in the stylesheet. `CSS.supports` for that at-rule was false here, so the native cross-document transition was not observed. |
+| `npm test` | PASS. 20 passed, 0 failed, after the pause-button and transition-gate edits. |
+| Portrait match | NOT VERIFIED. |
+| Full YouTube video | NOT WATCHED. The local thumbnail and oEmbed title were already on file. |
+| rocket.new, Pehchaan, Pinterest, Behance, Dribbble | NOT OPENED. |
+| Database write, Gemini live voice, camera, microphone, admin sign-in | NOT TESTED. |
+| Hosted Vercel deployment | BLOCKED for this pass. `vercel whoami` is signed in. This folder has no `.vercel/project.json`, only a local dev cache. No project was guessed and `vercel` was not given `--yes`. |
+
+Screenshots: `preview/2026-10-14-final/`.
+
+## 21. Evening pass — event homepage
+
+No commit and no push.
+
+Homepage sections, in order: poster hero with the event name, the core line, 1 November 2026 and the Puja grounds; YouTube thumbnail for `BKrUP5Froy4`; official 2026 gallery; registration steps; facts; help. The story article is only on `/karigar-vijaya-sammelan/story/`, linked as “গড়ে ওঠার গল্প”.
+
+| Check | Result |
+| --- | --- |
+| `npm test` | PASS. 20 passed, 0 failed. |
+| Thumbnail file | PASS. `maxresdefault.jpg` 1280×720, 298162 bytes, HTTP 200. Page links to the watch URL. Full video not played. |
+| Gallery load at 390 and 1440 | PASS. 15 images, zero broken. |
+| Story absent from home, present on its route | PASS. |
+| Reduced motion | PASS. `currentSrc` was `event-poster.jpg`, 1280×720. |
+| GIF file frames differ | PASS. Twelve extracted frames, twelve hashes. 960×540, 271584 bytes, 250 ms × 12. |
+| GIF frame change inside headless Edge | NOT OBSERVED. Canvas pixels did not change. |
+| Languages bn / en / hi | PASS. |
+| Voice and typed registration routes | PASS. Saathi present on the voice route. No Gemini live-voice claim. |
+| Overflow 320–1440 | PASS. 0 or −15. No horizontal page overflow. |
+| Portrait match | NOT VERIFIED. Unchanged. |
+| Database write, Gemini key, camera, microphone, admin, Vercel deploy | NOT TESTED. Still blocked as before. |
+
+Screenshots: `preview/2026-10-14-event/`.
+
+
 ## 1. What was already complete
 
 The site was already a Bengali-first plain HTML/CSS/JS application with Vercel serverless functions, not Next.js.
@@ -245,6 +289,24 @@ Screenshots: `preview/2026-10-14/`. Widths 320, 360, 390, 430, 768 and 1440. Ove
 
 Private repository, confirmed: https://github.com/BKS-Bengal/karigar-vijay-sammelan-2026. Organisation slug `BKS-Bengal`. No GKS organisation was on this account. The original folder was left in the parent workspace.
 
+## 19. Local story and voice pass — 14 October 2026
+
+This pass did not push, create a repository, change a remote, or change repository visibility.
+
+The public story chapters were rewritten so they read as the transformation, not as production notes. A 56.2-second local night clip was reviewed by frames only. It shows potted plants, rail lights, and pink and yellow cloth on bamboo arches. A 9.3-second clip shows people under a lamp; those faces were not published and were not named. Audio was not played. The YouTube video was not played. oEmbed returned the title only.
+
+The official site `https://karmyogdurgapuja.org/site/?lang=bn` was opened. The construction checkpoints match the calendar already on the story page, with two additions now printed: a raft on 24 September, and Dashami plus immersion on 21 October. The Sammelan date was not changed. Photographs were not tied to those dates. The fetch returned English even with `lang=bn`.
+
+Gemini token minting now locks audio input transcription and a server-side instruction. The permanent key is still read only from `GEMINI_API_KEY`, which is empty. No live audio call was made. TTS remains `gemini-3.8-flash-tts`. File transcription remains `gemini-3.5-transcribe`.
+
+`npm test`: 20 passed, 0 failed.
+
+Local `vercel dev --local --listen 127.0.0.1:3000` served the five public routes with HTTP 200. Speech status was `provider: none`. A valid registration body returned 503 `configuration_missing` and no reference number. The process was stopped.
+
+Screenshots: `preview/2026-10-14-pass2/`. Widths 320, 360, 390, 430, 768 and 1440 for home, story and karigar. Overflow was not positive. No broken image on those shots. Viewport height was 900 pixels.
+
+The parent repository was not committed.
+
 Status at the start of this pass, and unchanged for every site except the untracked Karigar folder:
 
 - Branch `main...origin/main`
@@ -281,3 +343,19 @@ Status at the start of this pass, and unchanged for every site except the untrac
 - [x] Deployment readiness reviewed; not deployed
 - [x] This report and the work log written
 - [x] Git changes left uncommitted
+
+## 20. Invitation artwork, profiles and layout — 14 October 2026
+
+No parent commit, no push, no remote change.
+
+The live official page listed invitation files `krl-invite-1.jpg`, `krl-invite-2.jpg` and `krl-invite-3.jpg`. All three were downloaded and viewed. Page 1 is the landing and story anchor, shown in full, captioned as invitation artwork. Page 2 is a letter and design views; it is stored and not used as a photograph. Page 3 is on the story page with a caption that its printed faces are the card’s dedication, not the three interviewed karigars. No installed-2026-idol photograph was found, so `maa-durga-2025.jpg` was removed from the hero.
+
+Official progress files for 21 September, 28 September and 7 October were downloaded and viewed. The first two match existing project files by SHA-256. Captions now carry those file dates. Story photographs 01–06 are still not dated to the log.
+
+The YouTube interview was not played. Five stills were extracted with FFmpeg from the two short local MP4 files. No name label was visible. No face is published as a portrait. The map is `docs/interview-still-map.md`.
+
+Paritosh’s transcript statement that he had been a primary-school teacher is now in the public profile. Family health, district, Polit, the recognition card and ₹5,000 are not.
+
+`npm test` was run again after the final copy, layout and hero-alignment edits: 20 passed, 0 failed. The alignment itself was also checked in the browser.
+
+Screenshots: `preview/2026-10-14-redesign/`. Five routes at 320, 360, 390, 430, 768 and 1440, plus scrolled card shots. Overflow was not positive. Broken images: 0. Language switch was exercised on the artisan page. The local server was left running. Gemini, Supabase, camera, microphone, organiser sign-in and a hosted deploy were not tested.

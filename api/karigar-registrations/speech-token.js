@@ -33,7 +33,8 @@ module.exports = async function handler(req, res) {
   var google = gemini.geminiConfig();
   if (google) {
     try {
-      var minted = await gemini.createLiveToken(google);
+      var body = await http.readBody(req);
+      var minted = await gemini.createLiveToken(google, body && body.language, body && body.question);
       if (!minted) {
         http.json(res, 502, { ok: false, error: "speech_failed", provider: "gemini" });
         return;

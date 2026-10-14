@@ -1,0 +1,107 @@
+{
+  "pages": [
+    {
+      "name": "home-320",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "home-360",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "home-390",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "home-430",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "home-768",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "home-1440",
+      "overflow": -15,
+      "path": "/karigar-vijaya-sammelan/",
+      "notes": false
+    },
+    {
+      "name": "story-1440",
+      "overflow": -15,
+      "path": "/karigar-vijaya-sammelan/story/",
+      "notes": false
+    },
+    {
+      "name": "story-390",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/story/",
+      "notes": false
+    },
+    {
+      "name": "karigar-1440",
+      "overflow": -15,
+      "path": "/karigar-vijaya-sammelan/karigar/",
+      "notes": false
+    },
+    {
+      "name": "karigar-390",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/karigar/",
+      "notes": false
+    },
+    {
+      "name": "register-chat-1440",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/register/?mode=chat",
+      "notes": false
+    },
+    {
+      "name": "register-chat-390",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/register/?mode=chat",
+      "notes": false
+    },
+    {
+      "name": "register-voice-1440",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/register/?mode=voice",
+      "notes": false
+    },
+    {
+      "name": "register-voice-390",
+      "overflow": 0,
+      "path": "/karigar-vijaya-sammelan/register/?mode=voice",
+      "notes": false
+    }
+  ],
+  "errors": [],
+  "pause": {
+    "pressed": "true",
+    "src": "/assets/poster/karigar-vijay-sammelan-2026-static.webp"
+  },
+  "reduced": {
+    "current": "http://127.0.0.1:3000/assets/poster/karigar-vijay-sammelan-2026-static.webp",
+    "matches": true,
+    "toggle": "none"
+  },
+  "transition": {
+    "path": "/karigar-vijaya-sammelan/story/",
+    "proof": null,
+    "vt": "function"
+  },
+  "httpErrors": [],
+  "console": [
+    "{\"timestamp\":1791976610178.126,\"exceptionDetails\":{\"exceptionId\":1,\"text\":\"Uncaught (in promise)\",\"lineNumber\":0,\"columnNumber\":0,\"scriptId\":\"1\",\"url\":\"http://127.0.0.1:3000/karigar-vijaya-sammelan/story/\",\"exception\":{\"type\":\"object\",\"subt"
+  ]
+}

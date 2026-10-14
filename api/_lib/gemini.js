@@ -29,7 +29,15 @@ function isoIn(ms) {
   return new Date(Date.now() + ms).toISOString().replace(/\.\d{3}Z$/, "Z");
 }
 
-function liveTokenBody() {
+function sessionGuide(language, question) {
+  var name = language === "hi-IN" ? "Hindi" : language === "en-IN" ? "simple Indian English" : "Bengali";
+  var asked = String(question || "").replace(/[\u0000-\u001f]/g, " ").replace(/\s+/g, " ").trim().slice(0, 500);
+  return "You are Karigar Saathi. Speak only in " + name + ". Speak slowly, clearly and respectfully, in words an artisan can follow. Say only this one question, then wait in silence: "
+    + asked
+    + " Do not invent a name, number, attendance choice or consent. Do not say a registration was saved.";
+}
+
+function liveTokenBody(language, question) {
   return {
     uses: 1,
     expireTime: isoIn(30 * 60 * 1000),
@@ -38,7 +46,9 @@ function liveTokenBody() {
       model: "models/" + LIVE_MODEL,
       config: {
         sessionResumption: {},
-        responseModalities: ["AUDIO"]
+        responseModalities: ["AUDIO"],
+        inputAudioTranscription: {},
+        systemInstruction: { parts: [{ text: sessionGuide(language, question) }] }
       }
     }
   };
@@ -93,14 +103,14 @@ function sttBody(audioBase64, mime, language) {
   };
 }
 
-async function createLiveToken(config) {
+async function createLiveToken(config, language, question) {
   var response = await fetch(HOST + "/auth_tokens", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       "x-goog-api-key": config.key
     },
-    body: JSON.stringify(liveTokenBody()),
+    body: JSON.stringify(liveTokenBody(language, question)),
     signal: AbortSignal.timeout(10000)
   });
   if (!response.ok) return null;
@@ -144,6 +154,7 @@ module.exports = {
   STT_MODEL: STT_MODEL,
   HOST: HOST,
   geminiConfig: geminiConfig,
+  sessionGuide: sessionGuide,
   liveTokenBody: liveTokenBody,
   ttsBody: ttsBody,
   sttBody: sttBody,

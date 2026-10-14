@@ -188,8 +188,9 @@
 
   function guide(language, question) {
     var name = language === "hi-IN" ? "Hindi" : language === "en-IN" ? "simple Indian English" : "Bengali";
+    var asked = String(question || "").replace(/[\u0000-\u001f]/g, " ").replace(/\s+/g, " ").trim().slice(0, 500);
     return "You are Karigar Saathi. Speak only in " + name + ". Speak slowly, clearly and respectfully, in words an artisan can follow. Say only this one question, then wait in silence: "
-      + question
+      + asked
       + " Do not invent a name, number, attendance choice or consent. Do not say a registration was saved.";
   }
 
@@ -343,7 +344,11 @@
       playAt: 0
     };
     live = session;
-    fetch("/api/karigar-registrations/speech-token", { method: "POST" }).then(function (res) {
+    fetch("/api/karigar-registrations/speech-token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ language: language, question: question })
+    }).then(function (res) {
       return res.json().then(function (data) { return { ok: res.ok, data: data }; });
     }).then(function (result) {
       if (!live || live !== session) return;

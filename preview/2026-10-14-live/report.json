@@ -1,0 +1,336 @@
+{
+  "homeLinks": [
+    {
+      "text": "মূল বিষয়ে যান",
+      "href": "#main"
+    },
+    {
+      "text": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "href": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "text": "গড়ে ওঠার গল্প",
+      "href": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "text": "কারিগরদের গল্প",
+      "href": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "text": "অনুষ্ঠানের তথ্য",
+      "href": "/karigar-vijaya-sammelan/#tathya"
+    },
+    {
+      "text": "রেজিস্ট্রেশন",
+      "href": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "text": "কারিগর সাথীর সঙ্গে কথা বলে রেজিস্ট্রেশন করুন",
+      "href": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "text": "লিখে রেজিস্ট্রেশন করুন",
+      "href": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "text": "রেজিস্ট্রেশন করতে সাহায্য চাই",
+      "href": "#help"
+    },
+    {
+      "text": "রূপান্তরের পুরো গল্প পড়ুন",
+      "href": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "text": "কারিগরদের সঙ্গে পরিচিত হন",
+      "href": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "text": "কারিগরদের সঙ্গে পরিচিত হন",
+      "href": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "text": "গোপনীয়তার পুরো কথা পড়ুন",
+      "href": "/karigar-vijaya-sammelan/privacy/"
+    },
+    {
+      "text": "+91 91677 19898",
+      "href": "tel:+919167719898"
+    },
+    {
+      "text": "+91 98300 24611",
+      "href": "tel:+919830024611"
+    }
+  ],
+  "clicks": [
+    {
+      "clicked": "/karigar-vijaya-sammelan/story/",
+      "result": {
+        "found": true
+      },
+      "landed": {
+        "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/story/",
+        "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+        "tathya": false,
+        "overflow": 0
+      }
+    },
+    {
+      "clicked": "/karigar-vijaya-sammelan/karigar/",
+      "result": {
+        "found": true
+      },
+      "landed": {
+        "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/karigar/",
+        "h1": "যাঁদের হাতে গড়ে ওঠে",
+        "tathya": false,
+        "overflow": 0
+      }
+    },
+    {
+      "clicked": "/karigar-vijaya-sammelan/register/?mode=voice",
+      "result": {
+        "found": true
+      },
+      "landed": {
+        "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/register/?mode=voice",
+        "h1": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "tathya": false,
+        "overflow": 0
+      }
+    },
+    {
+      "clicked": "/karigar-vijaya-sammelan/register/?mode=chat",
+      "result": {
+        "found": true
+      },
+      "landed": {
+        "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/register/?mode=chat",
+        "h1": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "tathya": false,
+        "overflow": 0
+      }
+    },
+    {
+      "clicked": "/karigar-vijaya-sammelan/#tathya",
+      "result": {
+        "found": true
+      },
+      "landed": {
+        "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/#tathya",
+        "h1": "\n            আপনার হাতে গড়ে উঠেছে প্রত্যাবর্তন।\n            এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী।\n          ",
+        "tathya": true,
+        "overflow": 0
+      }
+    }
+  ],
+  "measures": [
+    {
+      "name": "home",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "h1": "\n            আপনার হাতে গড়ে উঠেছে প্রত্যাবর্তন।\n            এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী।\n          ",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "h1": "\n            আপনার হাতে গড়ে উঠেছে প্রত্যাবর্তন।\n            এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী।\n          ",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "metrics": {
+        "overflow": -15,
+        "h1": "\n            আপনার হাতে গড়ে উঠেছে প্রত্যাবর্তন।\n            এবার আপনাদের সম্মানে আমাদের বিজয়া সম্মিলনী।\n          ",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "story",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "story",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "story",
+      "width": 1440,
+      "metrics": {
+        "overflow": -15,
+        "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "karigar",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "h1": "যাঁদের হাতে গড়ে ওঠে",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "karigar",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "h1": "যাঁদের হাতে গড়ে ওঠে",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "karigar",
+      "width": 1440,
+      "metrics": {
+        "overflow": -15,
+        "h1": "যাঁদের হাতে গড়ে ওঠে",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-chat",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "broken": 0,
+        "voicePressed": "false",
+        "chatPressed": "true",
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-chat",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "broken": 0,
+        "voicePressed": "false",
+        "chatPressed": "true",
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-chat",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "broken": 0,
+        "voicePressed": "false",
+        "chatPressed": "true",
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-voice",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "",
+        "broken": 0,
+        "voicePressed": null,
+        "chatPressed": null,
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-voice",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "broken": 0,
+        "voicePressed": "true",
+        "chatPressed": "false",
+        "smallControls": []
+      }
+    },
+    {
+      "name": "register-voice",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "h1": "",
+        "prompt": "নমস্কার। প্রত্যাবর্তন কারিগর বিজয়া সম্মিলনীর রেজিস্ট্রেশন সহকারী বলছি। আমি আপনাকে সহজভাবে রেজিস্ট্রেশন করতে সাহায্য করব। আপনি মুখে উত্তর দিতে পারেন, অথবা চাইলে লিখেও দিতে পারেন। শুরু করব?",
+        "broken": 0,
+        "voicePressed": "true",
+        "chatPressed": "false",
+        "smallControls": []
+      }
+    }
+  ],
+  "started": {
+    "found": true
+  },
+  "afterStart": {
+    "prompt": "আপনার পুরো নামটি ধীরে ধীরে বলুন। আমি আপনার নামটি লিখে দেখাব, আপনি ঠিক আছে কি না জানাবেন।",
+    "overflow": 0,
+    "field": {
+      "tag": "TEXTAREA",
+      "h": 104,
+      "w": 322,
+      "viewport": 390
+    }
+  }
+}

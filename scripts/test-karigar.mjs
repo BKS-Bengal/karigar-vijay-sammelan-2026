@@ -174,7 +174,7 @@ test("missing Supabase configuration returns 503 and no registration reference",
 test("visitor copy stays complete in three languages and avoids internal notes", () => {
   const i18n = require("../js/i18n.js");
   assert.equal(i18n.hasAllLanguages(), true);
-  assert.equal(i18n.STR["hero.photoCaption"]["bn-IN"].includes("২১ সেপ্টেম্বর"), false);
+  assert.match(i18n.STR["hero.photoCaption"]["bn-IN"], /২১ সেপ্টেম্বর ২০২৬/);
   assert.equal(i18n.STR["steps.three"]["en-IN"].toLowerCase().includes("storage"), false);
   assert.equal(i18n.STR["people.santoshBody"]["bn-IN"].includes("প্রকাশের জন্য"), false);
 });
@@ -644,7 +644,11 @@ test("gemini voice stays on the server and does not return the permanent key", a
     assert.equal(status.data.token, undefined);
     assert.equal(calls.length, 0);
 
-    const minted = await callHandlerWith(token, { method: "POST", headers: {} });
+    const minted = await callHandlerWith(token, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: { language: "bn-IN", question: "আপনার নাম কী?" }
+    });
     assert.equal(minted.status, 200);
     assert.equal(minted.data.token, "auth_tokens/short-lived");
     assert.equal(minted.data.model, "gemini-3.8-live");
@@ -656,6 +660,12 @@ test("gemini voice stays on the server and does not return the permanent key", a
     assert.equal(locked.uses, 1);
     assert.equal(locked.liveConnectConstraints.model, "models/gemini-3.8-live");
     assert.deepEqual(locked.liveConnectConstraints.config.responseModalities, ["AUDIO"]);
+    assert.deepEqual(locked.liveConnectConstraints.config.inputAudioTranscription, {});
+    const lockedGuide = locked.liveConnectConstraints.config.systemInstruction.parts[0].text;
+    assert.match(lockedGuide, /আপনার নাম কী\?/);
+    assert.match(lockedGuide, /Do not say a registration was saved/);
+    assert.equal(lockedGuide, gemini.sessionGuide("bn-IN", "আপনার নাম কী?"));
+    assert.equal(lockedGuide.indexOf(secret), -1);
 
     const res = mockRes();
     await speak({ method: "POST", headers: {}, body: { text: "নমস্কার", language: "bn-IN" } }, res);
@@ -719,5 +729,25 @@ test("registration and organiser pages keep the repaired confirmation and consen
   assert.match(story, /story\.c7Title/);
   assert.match(i18n, /1 November 2026/);
   assert.match(i18n, /16 to 20 October 2026/);
-  assert.doesNotMatch(publicText, /পলিট|পান্না|৫০০০|কর্মস্বীকৃতি|প্রাথমিক বিদ্যালয়|primary school/);
+  assert.match(i18n, /21 October/);
+  assert.match(publicText, /প্রাথমিক বিদ্যালয়/);
+  assert.match(publicText, /primary-school teacher/);
+  assert.match(publicText, /krl-invite-1\.jpg/);
+  assert.match(landing, /karigar-vijay-sammelan-2026-hero\.gif/);
+  assert.match(landing, /karigar-vijay-sammelan-2026-static\.webp/);
+  assert.match(landing, /prefers-reduced-motion:\s*reduce/);
+  assert.match(landing, /data-poster-toggle/);
+  assert.match(readFileSync(fileURLToPath(new URL("../css/site.css", import.meta.url)), "utf8"), /@view-transition/);
+  assert.match(landing, /maxresdefault\.jpg/);
+  assert.match(landing, /youtube\.com\/watch\?v=BKrUP5Froy4/);
+  assert.match(landing, /কথা বলে রেজিস্ট্রেশন/);
+  assert.match(landing, /pandal-aerial\.jpg/);
+  assert.match(landing, /নকশার দৃশ্য/);
+  assert.match(landing, /নির্মাণের আলোকচিত্র/);
+  assert.doesNotMatch(landing, /জঞ্জাল|রূপান্তরের ধাপ|golpo/);
+  assert.match(story, /জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ/);
+  assert.doesNotMatch(publicText, /maa-durga-2025/);
+  assert.doesNotMatch(publicText, /পলিট|পান্না|৫০০০|কর্মস্বীকৃতি|প্রতিবন্ধী|মেন্টালিটি/);
+  assert.doesNotMatch(publicText, /কতজন, কত ঘণ্টা|জেলা সাক্ষাৎকারে|পদবি এখানে দেওয়া হয়নি|কতজন কাজ করেছেন/);
+  assert.doesNotMatch(publicText, /৫৬ সেকেন্ড|56-second|পুরো ভিডিও|Local video, 8|স্থানীয় ভিডিও, ৮|প্রতিকৃতি নয়|Not a named portrait|Design views বলে|not a timestamp|আলোকচিত্র নয়|Not a photograph/);
 });

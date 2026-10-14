@@ -1,0 +1,511 @@
+{
+  "shots": [
+    {
+      "name": "home-320.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-360.png",
+      "width": 360,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-390.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-390-film.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/",
+      "view": "film"
+    },
+    {
+      "name": "home-390-gallery.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/",
+      "view": "gallery"
+    },
+    {
+      "name": "home-430.png",
+      "width": 430,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-768.png",
+      "width": 768,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-1440.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/"
+    },
+    {
+      "name": "home-1440-film.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/",
+      "view": "film"
+    },
+    {
+      "name": "home-1440-gallery.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/",
+      "view": "gallery"
+    },
+    {
+      "name": "story-320.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "story-360.png",
+      "width": 360,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "story-390.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "story-430.png",
+      "width": 430,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "story-768.png",
+      "width": 768,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "story-1440.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/story/"
+    },
+    {
+      "name": "karigar-320.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-320-cards.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/karigar/",
+      "view": "cards"
+    },
+    {
+      "name": "karigar-360.png",
+      "width": 360,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-390.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-430.png",
+      "width": 430,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-768.png",
+      "width": 768,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-1440.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/karigar/"
+    },
+    {
+      "name": "karigar-1440-cards.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/karigar/",
+      "view": "cards"
+    },
+    {
+      "name": "register-chat-320.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-chat-360.png",
+      "width": 360,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-chat-390.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-chat-430.png",
+      "width": 430,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-chat-768.png",
+      "width": 768,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-chat-1440.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/register/?mode=chat"
+    },
+    {
+      "name": "register-voice-320.png",
+      "width": 320,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "register-voice-360.png",
+      "width": 360,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "register-voice-390.png",
+      "width": 390,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "register-voice-430.png",
+      "width": 430,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "register-voice-768.png",
+      "width": 768,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "register-voice-1440.png",
+      "width": 1440,
+      "route": "/karigar-vijaya-sammelan/register/?mode=voice"
+    },
+    {
+      "name": "home-390-reduced.png",
+      "width": 390,
+      "view": "reduced"
+    }
+  ],
+  "checks": [
+    {
+      "name": "home",
+      "width": 320,
+      "overflow": 0,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "home",
+      "width": 360,
+      "overflow": 0,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "gallery-load",
+      "width": 390,
+      "zero": 0,
+      "count": 15
+    },
+    {
+      "name": "home",
+      "width": 430,
+      "overflow": 0,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": -15,
+      "broken": [],
+      "h1": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "gallery-load",
+      "width": 1440,
+      "zero": 0,
+      "count": 15
+    },
+    {
+      "name": "gif-animation",
+      "changed": false,
+      "src": "http://127.0.0.1:3000/assets/poster/event-poster.gif",
+      "w": 960,
+      "h": 540
+    },
+    {
+      "name": "story",
+      "width": 320,
+      "overflow": 0,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "story",
+      "width": 360,
+      "overflow": 0,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "story",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "story",
+      "width": 430,
+      "overflow": 0,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "story",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "story",
+      "width": 1440,
+      "overflow": -15,
+      "broken": [],
+      "h1": "জঞ্জালের স্তূপ থেকে আলোর মণ্ডপ: কারিগরদের হাতে প্রত্যাবর্তনের রূপান্তর।",
+      "storyOnPage": true,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 320,
+      "overflow": 0,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 360,
+      "overflow": 0,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 430,
+      "overflow": 0,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "karigar",
+      "width": 1440,
+      "overflow": -15,
+      "broken": [],
+      "h1": "যাঁদের হাতে গড়ে ওঠে",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 320,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 360,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 430,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-chat",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 320,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 360,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 430,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "register-voice",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "h1": "",
+      "storyOnPage": false,
+      "hasStoryLink": true
+    },
+    {
+      "name": "reduced-motion",
+      "src": "http://127.0.0.1:3000/assets/poster/event-poster.jpg",
+      "w": 1280,
+      "h": 720
+    },
+    {
+      "name": "languages",
+      "en": "Karigar Vijay Sammelan 2026",
+      "hi": "कारीगर विजया सम्मेलन २०२६",
+      "bn": "কারিগর বিজয়া সম্মিলনী ২০২৬",
+      "voice": "Register by speaking"
+    },
+    {
+      "name": "cta-voice",
+      "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/register/?mode=voice",
+      "hasSaathi": true,
+      "overflow": 0
+    },
+    {
+      "name": "cta-chat",
+      "href": "http://127.0.0.1:3000/karigar-vijaya-sammelan/register/?mode=chat",
+      "overflow": 0,
+      "text": "মূল বিষয়ে যান\nকারিগর বিজয়া সম্মিলনী ২০২৬\nবাংলা\nEnglish\nहिन्दी\nগড়ে ওঠার গল্প\nকারিগরদের গল্প\nঅনুষ্ঠানের তথ্য\nরেজিস্ট্রেশন\nকারিগর সাথী\n\nআপনার পাশে থাকা বাংলাভাষী রেজিস্ট্রেশন সহকার"
+    }
+  ]
+}
